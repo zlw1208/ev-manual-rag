@@ -7,6 +7,22 @@
 项目已完成可演示 MVP：包括说明书下载与解析、结构化分块、本地混合检索、Cross-Encoder
 重排、Qwen Plus 带引用回答、FastAPI 问答接口、Streamlit 用户页面及离线评测。
 
+## 运行效果
+
+### 交互演示
+
+![智驾手册助手交互演示](docs/assets/demo.gif)
+
+### 问答与引用
+
+![基于说明书生成回答](docs/assets/qa-answer.png)
+
+系统在回答中返回说明书章节和页码，并支持展开查看检索原文与 Cross-Encoder 重排分数。
+
+![说明书引用与请求信息](docs/assets/app-demo.png)
+
+![检索原文与重排分数](docs/assets/retrieval-detail.png)
+
 ## 目录结构
 
 ```text
