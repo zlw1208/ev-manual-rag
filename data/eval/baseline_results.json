@@ -1,0 +1,1332 @@
+{
+  "metrics": [
+    {
+      "mode": "dense",
+      "question_count": 30,
+      "recall_at_1": 0.7666666666666667,
+      "recall_at_3": 0.9666666666666667,
+      "recall_at_5": 0.9666666666666667,
+      "mrr_at_5": 0.8555555555555556,
+      "average_latency_ms": 29.609146666674253,
+      "p95_latency_ms": 58.147700008703396,
+      "category_recall_at_5": {
+        "乘员安全": 1.0,
+        "充电补能": 1.0,
+        "应急处理": 1.0,
+        "智能驾驶": 1.0,
+        "车载设备": 1.0,
+        "车辆控制": 1.0,
+        "驾驶安全": 1.0,
+        "驾驶操作": 0.8333333333333334
+      }
+    },
+    {
+      "mode": "sparse",
+      "question_count": 30,
+      "recall_at_1": 0.8333333333333334,
+      "recall_at_3": 0.9666666666666667,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.9083333333333333,
+      "average_latency_ms": 12.57312000185872,
+      "p95_latency_ms": 17.034599994076416,
+      "category_recall_at_5": {
+        "乘员安全": 1.0,
+        "充电补能": 1.0,
+        "应急处理": 1.0,
+        "智能驾驶": 1.0,
+        "车载设备": 1.0,
+        "车辆控制": 1.0,
+        "驾驶安全": 1.0,
+        "驾驶操作": 1.0
+      }
+    },
+    {
+      "mode": "hybrid",
+      "question_count": 30,
+      "recall_at_1": 0.8666666666666667,
+      "recall_at_3": 0.9666666666666667,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.9194444444444445,
+      "average_latency_ms": 31.013503337938648,
+      "p95_latency_ms": 40.68049998022616,
+      "category_recall_at_5": {
+        "乘员安全": 1.0,
+        "充电补能": 1.0,
+        "应急处理": 1.0,
+        "智能驾驶": 1.0,
+        "车载设备": 1.0,
+        "车辆控制": 1.0,
+        "驾驶安全": 1.0,
+        "驾驶操作": 1.0
+      }
+    }
+  ],
+  "details": {
+    "dense": [
+      {
+        "id": "key-001",
+        "question": "仪表提示遥控钥匙电量低时应该怎么办？",
+        "category": "车辆控制",
+        "rank": 2,
+        "latency_ms": 507.18610000330955,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p015-016-137e9d354501",
+          "aito-m5-ev-p013-014-b77e8fdc8c63",
+          "aito-m5-ev-p056-057-b54f1d02f719",
+          "aito-m5-ev-p016-016-694ea93c25de",
+          "aito-m5-ev-p020-020-9d7960f51a9f"
+        ]
+      },
+      {
+        "id": "door-001",
+        "question": "怎么开启后排儿童安全锁，开启后车门能从里面打开吗？",
+        "category": "车辆控制",
+        "rank": 2,
+        "latency_ms": 9.17110001319088,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p018-019-bcbeb8827002",
+          "aito-m5-ev-p019-020-034f04a0340a",
+          "aito-m5-ev-p020-021-5f0dcef0c65d",
+          "aito-m5-ev-p024-024-1658b37daa18",
+          "aito-m5-ev-p014-014-c838f381894e"
+        ]
+      },
+      {
+        "id": "window-001",
+        "question": "车窗如何一键自动升降，中途怎么让它停止？",
+        "category": "车辆控制",
+        "rank": 2,
+        "latency_ms": 14.686100010294467,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p025-025-574b497f6dd7",
+          "aito-m5-ev-p022-024-df6ff9b20f1e",
+          "aito-m5-ev-p024-024-1658b37daa18",
+          "aito-m5-ev-p072-072-431068be22bc",
+          "aito-m5-ev-p147-147-9119d9144568"
+        ]
+      },
+      {
+        "id": "seat-001",
+        "question": "驾驶座和方向盘之间至少应该保持多远？",
+        "category": "乘员安全",
+        "rank": 1,
+        "latency_ms": 16.26080001005903,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p031-032-4a86be72c800",
+          "aito-m5-ev-p058-059-98306a52ad6b",
+          "aito-m5-ev-p094-094-ea299a8b5b64",
+          "aito-m5-ev-p092-093-fbc7809c844c",
+          "aito-m5-ev-p091-091-9c5c206f7646"
+        ]
+      },
+      {
+        "id": "child-001",
+        "question": "身高低于140厘米的儿童可以坐副驾驶吗？",
+        "category": "乘员安全",
+        "rank": 1,
+        "latency_ms": 14.462399994954467,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p039-040-0bdddfb26027",
+          "aito-m5-ev-p042-042-c1af08d49525",
+          "aito-m5-ev-p032-033-09f3263310a3",
+          "aito-m5-ev-p040-042-202b04cc6896",
+          "aito-m5-ev-p031-032-4a86be72c800"
+        ]
+      },
+      {
+        "id": "airbag-001",
+        "question": "安全气囊展开以后还能继续驾驶车辆吗？",
+        "category": "乘员安全",
+        "rank": 1,
+        "latency_ms": 11.707800003932789,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p047-048-8aa50a81d15a",
+          "aito-m5-ev-p048-050-bcd610037db1",
+          "aito-m5-ev-p047-047-daf7fa8c3737",
+          "aito-m5-ev-p051-051-2ada63b6bad4",
+          "aito-m5-ev-p044-044-93cf64d45b4a"
+        ]
+      },
+      {
+        "id": "drive-001",
+        "question": "涉水驾驶之后需要检查哪些项目？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 12.587400007760152,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p053-053-3a35007b33de",
+          "aito-m5-ev-p188-188-6c9d85754b46",
+          "aito-m5-ev-p193-193-7f85695c02f5",
+          "aito-m5-ev-p170-170-760db93d33ba",
+          "aito-m5-ev-p102-103-73c0f066e404"
+        ]
+      },
+      {
+        "id": "start-001",
+        "question": "车辆怎样正常启动，READY指示灯什么时候点亮？",
+        "category": "驾驶操作",
+        "rank": null,
+        "latency_ms": 7.936800015158951,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p068-069-ee19dd8756c2",
+          "aito-m5-ev-p064-065-de86d9e2c210",
+          "aito-m5-ev-p066-068-52cbbc5e57cc",
+          "aito-m5-ev-p064-064-185b88aec511",
+          "aito-m5-ev-p062-063-538eab3084c3"
+        ]
+      },
+      {
+        "id": "gear-001",
+        "question": "车辆无法移出P挡应该如何操作？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 10.424199979752302,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p060-060-99ef4353893c",
+          "aito-m5-ev-p060-061-deaa3d11610e",
+          "aito-m5-ev-p061-061-099a7ef1a4d6",
+          "aito-m5-ev-p150-151-cfbd77d77864",
+          "aito-m5-ev-p057-057-a6fa2359f07c"
+        ]
+      },
+      {
+        "id": "light-001",
+        "question": "大灯延时关闭可以设置多长时间？",
+        "category": "驾驶操作",
+        "rank": 2,
+        "latency_ms": 58.147700008703396,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p068-069-ee19dd8756c2",
+          "aito-m5-ev-p066-068-52cbbc5e57cc",
+          "aito-m5-ev-p014-014-c838f381894e",
+          "aito-m5-ev-p020-021-5f0dcef0c65d",
+          "aito-m5-ev-p020-020-9d7960f51a9f"
+        ]
+      },
+      {
+        "id": "wiper-001",
+        "question": "自动雨刮的灵敏度怎么调节？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 8.17539999843575,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p071-072-e62eeac50f58",
+          "aito-m5-ev-p189-190-996b5332671b",
+          "aito-m5-ev-p072-072-431068be22bc",
+          "aito-m5-ev-p189-189-1745d714a4e5",
+          "aito-m5-ev-p190-190-22b06ff286c4"
+        ]
+      },
+      {
+        "id": "mirror-001",
+        "question": "行驶过程中可以调节外后视镜吗？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 8.609099983004853,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p073-074-c08187535592",
+          "aito-m5-ev-p074-074-a170ab0a884a",
+          "aito-m5-ev-p074-074-80892744e099",
+          "aito-m5-ev-p075-075-b348ba0a11b6",
+          "aito-m5-ev-p032-032-36dd1decd7c9"
+        ]
+      },
+      {
+        "id": "power-001",
+        "question": "后备箱12V电源插座的最大功率是多少？",
+        "category": "车载设备",
+        "rank": 1,
+        "latency_ms": 15.107800019904971,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p080-081-7c7c6768844e",
+          "aito-m5-ev-p080-080-16ac1bb394c1",
+          "aito-m5-ev-p168-168-70254075398c",
+          "aito-m5-ev-p026-027-a16b0e0fb2a5",
+          "aito-m5-ev-p028-028-0240f0fcafe2"
+        ]
+      },
+      {
+        "id": "brake-001",
+        "question": "紧急制动时制动踏板应该怎么踩？",
+        "category": "驾驶安全",
+        "rank": 3,
+        "latency_ms": 14.588099991669878,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p087-088-451bd8962ceb",
+          "aito-m5-ev-p086-086-4e2dd5964bbf",
+          "aito-m5-ev-p084-084-8f29c1919195",
+          "aito-m5-ev-p084-084-d274df4fc57f",
+          "aito-m5-ev-p188-188-04fb0e291cf6"
+        ]
+      },
+      {
+        "id": "esc-001",
+        "question": "车辆转向过度或不足时ESC如何帮助稳定车辆？",
+        "category": "驾驶安全",
+        "rank": 1,
+        "latency_ms": 15.270099975168705,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p087-087-eeacfd4f13f6",
+          "aito-m5-ev-p087-088-451bd8962ceb",
+          "aito-m5-ev-p088-088-3739ea2c1c7e",
+          "aito-m5-ev-p088-089-7d57287725ce",
+          "aito-m5-ev-p031-032-4a86be72c800"
+        ]
+      },
+      {
+        "id": "acc-001",
+        "question": "自适应巡航检测到前方有车时会怎么控制车速？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 14.867399993818253,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p091-091-9c5c206f7646",
+          "aito-m5-ev-p092-093-fbc7809c844c",
+          "aito-m5-ev-p102-102-1fb02a12c83b",
+          "aito-m5-ev-p101-102-1f371ffc770e",
+          "aito-m5-ev-p091-092-7e540e901115"
+        ]
+      },
+      {
+        "id": "tja-001",
+        "question": "车道巡航辅助在什么车速范围内能保持车道居中？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 15.957199997501448,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p094-094-ea299a8b5b64",
+          "aito-m5-ev-p094-095-a0b86472afca",
+          "aito-m5-ev-p095-095-a359484ad5e8",
+          "aito-m5-ev-p096-097-645aa055066e",
+          "aito-m5-ev-p111-111-85e43a6b9ab5"
+        ]
+      },
+      {
+        "id": "bsd-001",
+        "question": "盲区监测发现旁边有车时会怎样提醒驾驶员？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 12.200099998153746,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p098-098-5e97c134cb04",
+          "aito-m5-ev-p100-100-4e1ce0f647f3",
+          "aito-m5-ev-p098-100-5a2a0b0e9be9",
+          "aito-m5-ev-p117-117-b584e4fb59eb",
+          "aito-m5-ev-p114-115-4210f87072f2"
+        ]
+      },
+      {
+        "id": "dow-001",
+        "question": "停车开门时怎样预警后方接近的自行车或行人？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 9.443199989618734,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p098-100-5a2a0b0e9be9",
+          "aito-m5-ev-p109-110-c9544d10bdf9",
+          "aito-m5-ev-p073-074-c08187535592",
+          "aito-m5-ev-p017-018-c2da8db4a46e",
+          "aito-m5-ev-p014-014-c838f381894e"
+        ]
+      },
+      {
+        "id": "aeb-001",
+        "question": "前方存在碰撞风险时辅助紧急制动系统有什么作用？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 10.079600004246458,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p101-101-26879977020c",
+          "aito-m5-ev-p101-102-1f371ffc770e",
+          "aito-m5-ev-p102-102-1fb02a12c83b",
+          "aito-m5-ev-p086-086-4e2dd5964bbf",
+          "aito-m5-ev-p090-090-a66b9b4a3cd9"
+        ]
+      },
+      {
+        "id": "apa-001",
+        "question": "车速超过25公里每小时时还能开启辅助泊车吗？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 9.719900001073256,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p108-108-c197a9e17262",
+          "aito-m5-ev-p111-111-85e43a6b9ab5",
+          "aito-m5-ev-p107-107-1b5e79e5b9a1",
+          "aito-m5-ev-p111-111-0269fe87b1e7",
+          "aito-m5-ev-p108-109-620809337f07"
+        ]
+      },
+      {
+        "id": "camera-001",
+        "question": "全景影像有没有盲点，能否代替驾驶员观察？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 8.679599995957687,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p112-112-e944d99e1aac",
+          "aito-m5-ev-p113-113-978268432a14",
+          "aito-m5-ev-p112-113-d11bbdfa8bb1",
+          "aito-m5-ev-p098-098-5e97c134cb04",
+          "aito-m5-ev-p100-100-4e1ce0f647f3"
+        ]
+      },
+      {
+        "id": "tpms-001",
+        "question": "胎压低于多少或高于多少会触发胎压报警？",
+        "category": "驾驶安全",
+        "rank": 1,
+        "latency_ms": 11.0452999942936,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p118-118-1ab3a59bc76c",
+          "aito-m5-ev-p182-182-fa05abc9c3b9",
+          "aito-m5-ev-p182-183-52e36b87c8c7",
+          "aito-m5-ev-p171-172-7fedb0f17972",
+          "aito-m5-ev-p064-064-185b88aec511"
+        ]
+      },
+      {
+        "id": "remote-001",
+        "question": "AITO App可以远程控制车辆的哪些功能？",
+        "category": "车载设备",
+        "rank": 1,
+        "latency_ms": 9.379900002386421,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p125-126-a94b19c29ee2",
+          "aito-m5-ev-p212-212-4fbdc5d4dbbd",
+          "aito-m5-ev-p091-091-9c5c206f7646",
+          "aito-m5-ev-p131-131-a097a207bb2e",
+          "aito-m5-ev-p003-004-be038195c212"
+        ]
+      },
+      {
+        "id": "charge-001",
+        "question": "车辆支持哪三种充电方式，快充使用哪种充电桩？",
+        "category": "充电补能",
+        "rank": 1,
+        "latency_ms": 11.044799990486354,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p156-157-d82de676459e",
+          "aito-m5-ev-p161-162-89d27596385d",
+          "aito-m5-ev-p156-156-63415834f273",
+          "aito-m5-ev-p163-164-cbb450fcbf68",
+          "aito-m5-ev-p159-161-fd32cf3082bb"
+        ]
+      },
+      {
+        "id": "charge-002",
+        "question": "下雨天没有遮雨棚可以给车辆充电吗？",
+        "category": "充电补能",
+        "rank": 3,
+        "latency_ms": 14.597499975934625,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p075-075-b348ba0a11b6",
+          "aito-m5-ev-p163-164-cbb450fcbf68",
+          "aito-m5-ev-p156-156-dacfebee6223",
+          "aito-m5-ev-p156-157-d82de676459e",
+          "aito-m5-ev-p180-180-fb2c3030d506"
+        ]
+      },
+      {
+        "id": "charge-003",
+        "question": "停电导致充电故障，恢复供电后会自动继续充电吗？",
+        "category": "充电补能",
+        "rank": 1,
+        "latency_ms": 8.512900007190183,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p157-158-0cdf929cf88c",
+          "aito-m5-ev-p165-165-99fbe7afe2b6",
+          "aito-m5-ev-p180-180-fb2c3030d506",
+          "aito-m5-ev-p156-156-dacfebee6223",
+          "aito-m5-ev-p156-157-d82de676459e"
+        ]
+      },
+      {
+        "id": "trunk-001",
+        "question": "紧急情况下怎样从车内机械打开后备箱？",
+        "category": "应急处理",
+        "rank": 1,
+        "latency_ms": 10.016800020821393,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p168-168-70254075398c",
+          "aito-m5-ev-p026-026-e8246344fd2a",
+          "aito-m5-ev-p026-027-a16b0e0fb2a5",
+          "aito-m5-ev-p028-028-0240f0fcafe2",
+          "aito-m5-ev-p014-014-c838f381894e"
+        ]
+      },
+      {
+        "id": "tire-001",
+        "question": "轮胎刺孔超过6毫米还能用补胎液修补吗？",
+        "category": "应急处理",
+        "rank": 1,
+        "latency_ms": 8.373000018764287,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p171-171-6e461a332a8d",
+          "aito-m5-ev-p171-172-7fedb0f17972",
+          "aito-m5-ev-p182-183-52e36b87c8c7",
+          "aito-m5-ev-p172-172-41d5a8d76638",
+          "aito-m5-ev-p182-182-fa05abc9c3b9"
+        ]
+      },
+      {
+        "id": "jump-001",
+        "question": "低压蓄电池没电导致车辆无法启动时怎么搭电？",
+        "category": "应急处理",
+        "rank": 1,
+        "latency_ms": 10.03629999468103,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p175-175-584df3e6ed39",
+          "aito-m5-ev-p180-180-fb2c3030d506",
+          "aito-m5-ev-p180-180-1c9e5ea27be1",
+          "aito-m5-ev-p057-057-a6fa2359f07c",
+          "aito-m5-ev-p165-165-99fbe7afe2b6"
+        ]
+      }
+    ],
+    "sparse": [
+      {
+        "id": "key-001",
+        "question": "仪表提示遥控钥匙电量低时应该怎么办？",
+        "category": "车辆控制",
+        "rank": 2,
+        "latency_ms": 16.695700003765523,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p015-016-137e9d354501",
+          "aito-m5-ev-p013-014-b77e8fdc8c63",
+          "aito-m5-ev-p020-020-9d7960f51a9f",
+          "aito-m5-ev-p056-057-b54f1d02f719",
+          "aito-m5-ev-p017-018-c2da8db4a46e"
+        ]
+      },
+      {
+        "id": "door-001",
+        "question": "怎么开启后排儿童安全锁，开启后车门能从里面打开吗？",
+        "category": "车辆控制",
+        "rank": 1,
+        "latency_ms": 17.034599994076416,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p019-020-034f04a0340a",
+          "aito-m5-ev-p013-014-b77e8fdc8c63",
+          "aito-m5-ev-p018-019-bcbeb8827002",
+          "aito-m5-ev-p022-024-df6ff9b20f1e",
+          "aito-m5-ev-p042-042-c1af08d49525"
+        ]
+      },
+      {
+        "id": "window-001",
+        "question": "车窗如何一键自动升降，中途怎么让它停止？",
+        "category": "车辆控制",
+        "rank": 1,
+        "latency_ms": 17.787199991289526,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p022-024-df6ff9b20f1e",
+          "aito-m5-ev-p025-025-574b497f6dd7",
+          "aito-m5-ev-p013-014-b77e8fdc8c63",
+          "aito-m5-ev-p044-044-93cf64d45b4a",
+          "aito-m5-ev-p162-163-c7543824e3ec"
+        ]
+      },
+      {
+        "id": "seat-001",
+        "question": "驾驶座和方向盘之间至少应该保持多远？",
+        "category": "乘员安全",
+        "rank": 2,
+        "latency_ms": 15.877300000283867,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p045-045-51bafc92f138",
+          "aito-m5-ev-p031-032-4a86be72c800",
+          "aito-m5-ev-p094-094-ea299a8b5b64",
+          "aito-m5-ev-p117-117-b584e4fb59eb",
+          "aito-m5-ev-p097-097-c81e145a80c6"
+        ]
+      },
+      {
+        "id": "child-001",
+        "question": "身高低于140厘米的儿童可以坐副驾驶吗？",
+        "category": "乘员安全",
+        "rank": 1,
+        "latency_ms": 14.049299992620945,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p039-040-0bdddfb26027",
+          "aito-m5-ev-p043-043-453ab90d6e82",
+          "aito-m5-ev-p032-033-09f3263310a3",
+          "aito-m5-ev-p136-136-fce27efe5978",
+          "aito-m5-ev-p140-140-ef0e7f67c88a"
+        ]
+      },
+      {
+        "id": "airbag-001",
+        "question": "安全气囊展开以后还能继续驾驶车辆吗？",
+        "category": "乘员安全",
+        "rank": 1,
+        "latency_ms": 11.767899995902553,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p047-048-8aa50a81d15a",
+          "aito-m5-ev-p047-047-daf7fa8c3737",
+          "aito-m5-ev-p048-050-bcd610037db1",
+          "aito-m5-ev-p044-044-93cf64d45b4a",
+          "aito-m5-ev-p031-032-4a86be72c800"
+        ]
+      },
+      {
+        "id": "drive-001",
+        "question": "涉水驾驶之后需要检查哪些项目？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 11.842700012493879,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p053-053-3a35007b33de",
+          "aito-m5-ev-p202-202-88b392129e4b",
+          "aito-m5-ev-p197-197-73b4d5285503",
+          "aito-m5-ev-p200-201-02c90d7b3849",
+          "aito-m5-ev-p204-204-f654590c3d1a"
+        ]
+      },
+      {
+        "id": "start-001",
+        "question": "车辆怎样正常启动，READY指示灯什么时候点亮？",
+        "category": "驾驶操作",
+        "rank": 2,
+        "latency_ms": 12.240200012456626,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p084-084-d274df4fc57f",
+          "aito-m5-ev-p056-056-e2fa00e2b324",
+          "aito-m5-ev-p064-065-de86d9e2c210",
+          "aito-m5-ev-p062-063-538eab3084c3",
+          "aito-m5-ev-p060-061-deaa3d11610e"
+        ]
+      },
+      {
+        "id": "gear-001",
+        "question": "车辆无法移出P挡应该如何操作？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 10.028900025645271,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p060-060-99ef4353893c",
+          "aito-m5-ev-p060-061-deaa3d11610e",
+          "aito-m5-ev-p061-061-099a7ef1a4d6",
+          "aito-m5-ev-p086-086-4e2dd5964bbf",
+          "aito-m5-ev-p112-113-d11bbdfa8bb1"
+        ]
+      },
+      {
+        "id": "light-001",
+        "question": "大灯延时关闭可以设置多长时间？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 11.75360000343062,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p066-068-52cbbc5e57cc",
+          "aito-m5-ev-p120-121-1b92cabf12f7",
+          "aito-m5-ev-p161-162-89d27596385d",
+          "aito-m5-ev-p157-157-2cafe38820fd",
+          "aito-m5-ev-p150-150-270f2cb4103e"
+        ]
+      },
+      {
+        "id": "wiper-001",
+        "question": "自动雨刮的灵敏度怎么调节？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 11.548700014827773,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p071-072-e62eeac50f58",
+          "aito-m5-ev-p072-072-431068be22bc",
+          "aito-m5-ev-p189-189-1745d714a4e5",
+          "aito-m5-ev-p189-190-996b5332671b",
+          "aito-m5-ev-p190-190-22b06ff286c4"
+        ]
+      },
+      {
+        "id": "mirror-001",
+        "question": "行驶过程中可以调节外后视镜吗？",
+        "category": "驾驶操作",
+        "rank": 2,
+        "latency_ms": 12.117799982661381,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p032-032-36dd1decd7c9",
+          "aito-m5-ev-p073-074-c08187535592",
+          "aito-m5-ev-p074-074-a170ab0a884a",
+          "aito-m5-ev-p135-135-e6ed32b54d55",
+          "aito-m5-ev-p008-009-f1fd5e96c3b2"
+        ]
+      },
+      {
+        "id": "power-001",
+        "question": "后备箱12V电源插座的最大功率是多少？",
+        "category": "车载设备",
+        "rank": 1,
+        "latency_ms": 11.717199988197535,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p080-081-7c7c6768844e",
+          "aito-m5-ev-p172-172-41d5a8d76638",
+          "aito-m5-ev-p080-080-16ac1bb394c1",
+          "aito-m5-ev-p158-159-05c15fbcd9e5",
+          "aito-m5-ev-p175-175-584df3e6ed39"
+        ]
+      },
+      {
+        "id": "brake-001",
+        "question": "紧急制动时制动踏板应该怎么踩？",
+        "category": "驾驶安全",
+        "rank": 4,
+        "latency_ms": 11.670900013996288,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p101-102-1f371ffc770e",
+          "aito-m5-ev-p102-102-1fb02a12c83b",
+          "aito-m5-ev-p088-088-3739ea2c1c7e",
+          "aito-m5-ev-p084-084-8f29c1919195",
+          "aito-m5-ev-p101-101-26879977020c"
+        ]
+      },
+      {
+        "id": "esc-001",
+        "question": "车辆转向过度或不足时ESC如何帮助稳定车辆？",
+        "category": "驾驶安全",
+        "rank": 1,
+        "latency_ms": 12.294499989366159,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p087-087-eeacfd4f13f6",
+          "aito-m5-ev-p087-088-451bd8962ceb",
+          "aito-m5-ev-p089-089-b122e4f290cf",
+          "aito-m5-ev-p003-004-be038195c212",
+          "aito-m5-ev-p097-097-c81e145a80c6"
+        ]
+      },
+      {
+        "id": "acc-001",
+        "question": "自适应巡航检测到前方有车时会怎么控制车速？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 12.939499982167035,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p091-091-9c5c206f7646",
+          "aito-m5-ev-p092-093-fbc7809c844c",
+          "aito-m5-ev-p091-092-7e540e901115",
+          "aito-m5-ev-p094-094-ea299a8b5b64",
+          "aito-m5-ev-p064-065-de86d9e2c210"
+        ]
+      },
+      {
+        "id": "tja-001",
+        "question": "车道巡航辅助在什么车速范围内能保持车道居中？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 12.026800017338246,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p094-094-ea299a8b5b64",
+          "aito-m5-ev-p094-095-a0b86472afca",
+          "aito-m5-ev-p092-093-fbc7809c844c",
+          "aito-m5-ev-p096-097-645aa055066e",
+          "aito-m5-ev-p064-065-de86d9e2c210"
+        ]
+      },
+      {
+        "id": "bsd-001",
+        "question": "盲区监测发现旁边有车时会怎样提醒驾驶员？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 11.868800007505342,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p098-098-5e97c134cb04",
+          "aito-m5-ev-p117-117-b584e4fb59eb",
+          "aito-m5-ev-p098-100-5a2a0b0e9be9",
+          "aito-m5-ev-p100-100-4e1ce0f647f3",
+          "aito-m5-ev-p109-110-c9544d10bdf9"
+        ]
+      },
+      {
+        "id": "dow-001",
+        "question": "停车开门时怎样预警后方接近的自行车或行人？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 11.909799999557436,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p098-100-5a2a0b0e9be9",
+          "aito-m5-ev-p102-102-1fb02a12c83b",
+          "aito-m5-ev-p098-098-5e97c134cb04",
+          "aito-m5-ev-p100-100-4e1ce0f647f3",
+          "aito-m5-ev-p206-207-65f929f1b9b7"
+        ]
+      },
+      {
+        "id": "aeb-001",
+        "question": "前方存在碰撞风险时辅助紧急制动系统有什么作用？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 11.92389999050647,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p101-101-26879977020c",
+          "aito-m5-ev-p102-102-1fb02a12c83b",
+          "aito-m5-ev-p063-064-e1b6071058ed",
+          "aito-m5-ev-p101-102-1f371ffc770e",
+          "aito-m5-ev-p088-088-3739ea2c1c7e"
+        ]
+      },
+      {
+        "id": "apa-001",
+        "question": "车速超过25公里每小时时还能开启辅助泊车吗？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 11.072699999203905,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p108-108-c197a9e17262",
+          "aito-m5-ev-p108-109-620809337f07",
+          "aito-m5-ev-p112-113-d11bbdfa8bb1",
+          "aito-m5-ev-p182-183-52e36b87c8c7",
+          "aito-m5-ev-p109-110-c9544d10bdf9"
+        ]
+      },
+      {
+        "id": "camera-001",
+        "question": "全景影像有没有盲点，能否代替驾驶员观察？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 12.252999993506819,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p112-112-e944d99e1aac",
+          "aito-m5-ev-p113-113-978268432a14",
+          "aito-m5-ev-p112-113-d11bbdfa8bb1",
+          "aito-m5-ev-p058-058-adfaf9b8ed7a",
+          "aito-m5-ev-p108-109-620809337f07"
+        ]
+      },
+      {
+        "id": "tpms-001",
+        "question": "胎压低于多少或高于多少会触发胎压报警？",
+        "category": "驾驶安全",
+        "rank": 1,
+        "latency_ms": 12.556100002257153,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p118-118-1ab3a59bc76c",
+          "aito-m5-ev-p171-172-7fedb0f17972",
+          "aito-m5-ev-p020-021-5f0dcef0c65d",
+          "aito-m5-ev-p182-182-fa05abc9c3b9",
+          "aito-m5-ev-p120-121-1b92cabf12f7"
+        ]
+      },
+      {
+        "id": "remote-001",
+        "question": "AITO App可以远程控制车辆的哪些功能？",
+        "category": "车载设备",
+        "rank": 1,
+        "latency_ms": 12.941499997396022,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p125-126-a94b19c29ee2",
+          "aito-m5-ev-p127-128-38cb8da2b731",
+          "aito-m5-ev-p126-126-2f7e535c6e7c",
+          "aito-m5-ev-p152-152-07cff1e8cdd5",
+          "aito-m5-ev-p212-212-4fbdc5d4dbbd"
+        ]
+      },
+      {
+        "id": "charge-001",
+        "question": "车辆支持哪三种充电方式，快充使用哪种充电桩？",
+        "category": "充电补能",
+        "rank": 1,
+        "latency_ms": 10.742100013885647,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p156-157-d82de676459e",
+          "aito-m5-ev-p161-162-89d27596385d",
+          "aito-m5-ev-p159-161-fd32cf3082bb",
+          "aito-m5-ev-p163-164-cbb450fcbf68",
+          "aito-m5-ev-p162-163-c7543824e3ec"
+        ]
+      },
+      {
+        "id": "charge-002",
+        "question": "下雨天没有遮雨棚可以给车辆充电吗？",
+        "category": "充电补能",
+        "rank": 1,
+        "latency_ms": 11.364400008460507,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p156-156-dacfebee6223",
+          "aito-m5-ev-p081-082-71743122af07",
+          "aito-m5-ev-p071-072-e62eeac50f58",
+          "aito-m5-ev-p163-164-cbb450fcbf68",
+          "aito-m5-ev-p080-080-16ac1bb394c1"
+        ]
+      },
+      {
+        "id": "charge-003",
+        "question": "停电导致充电故障，恢复供电后会自动继续充电吗？",
+        "category": "充电补能",
+        "rank": 1,
+        "latency_ms": 12.554700020700693,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p157-158-0cdf929cf88c",
+          "aito-m5-ev-p156-156-dacfebee6223",
+          "aito-m5-ev-p177-177-9c5afad25155",
+          "aito-m5-ev-p062-063-538eab3084c3",
+          "aito-m5-ev-p162-163-c7543824e3ec"
+        ]
+      },
+      {
+        "id": "trunk-001",
+        "question": "紧急情况下怎样从车内机械打开后备箱？",
+        "category": "应急处理",
+        "rank": 1,
+        "latency_ms": 12.162099999841303,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p168-168-70254075398c",
+          "aito-m5-ev-p068-069-ee19dd8756c2",
+          "aito-m5-ev-p026-026-e8246344fd2a",
+          "aito-m5-ev-p019-020-034f04a0340a",
+          "aito-m5-ev-p169-169-431a33050d93"
+        ]
+      },
+      {
+        "id": "tire-001",
+        "question": "轮胎刺孔超过6毫米还能用补胎液修补吗？",
+        "category": "应急处理",
+        "rank": 1,
+        "latency_ms": 12.098000006517395,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p171-171-6e461a332a8d",
+          "aito-m5-ev-p171-172-7fedb0f17972",
+          "aito-m5-ev-p172-172-41d5a8d76638",
+          "aito-m5-ev-p090-090-f32411822938",
+          "aito-m5-ev-p118-118-1ab3a59bc76c"
+        ]
+      },
+      {
+        "id": "jump-001",
+        "question": "低压蓄电池没电导致车辆无法启动时怎么搭电？",
+        "category": "应急处理",
+        "rank": 1,
+        "latency_ms": 10.353699995903298,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p175-175-584df3e6ed39",
+          "aito-m5-ev-p180-180-1c9e5ea27be1",
+          "aito-m5-ev-p180-180-fb2c3030d506",
+          "aito-m5-ev-p165-165-99fbe7afe2b6",
+          "aito-m5-ev-p180-180-1ed1e808c102"
+        ]
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "key-001",
+        "question": "仪表提示遥控钥匙电量低时应该怎么办？",
+        "category": "车辆控制",
+        "rank": 2,
+        "latency_ms": 50.25430000387132,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p015-016-137e9d354501",
+          "aito-m5-ev-p013-014-b77e8fdc8c63",
+          "aito-m5-ev-p056-057-b54f1d02f719",
+          "aito-m5-ev-p020-020-9d7960f51a9f",
+          "aito-m5-ev-p016-016-694ea93c25de"
+        ]
+      },
+      {
+        "id": "door-001",
+        "question": "怎么开启后排儿童安全锁，开启后车门能从里面打开吗？",
+        "category": "车辆控制",
+        "rank": 1,
+        "latency_ms": 33.320700022159144,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p019-020-034f04a0340a",
+          "aito-m5-ev-p018-019-bcbeb8827002",
+          "aito-m5-ev-p013-014-b77e8fdc8c63",
+          "aito-m5-ev-p014-014-c838f381894e",
+          "aito-m5-ev-p020-021-5f0dcef0c65d"
+        ]
+      },
+      {
+        "id": "window-001",
+        "question": "车窗如何一键自动升降，中途怎么让它停止？",
+        "category": "车辆控制",
+        "rank": 2,
+        "latency_ms": 29.30030002607964,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p025-025-574b497f6dd7",
+          "aito-m5-ev-p022-024-df6ff9b20f1e",
+          "aito-m5-ev-p072-072-431068be22bc",
+          "aito-m5-ev-p024-024-1658b37daa18",
+          "aito-m5-ev-p013-014-b77e8fdc8c63"
+        ]
+      },
+      {
+        "id": "seat-001",
+        "question": "驾驶座和方向盘之间至少应该保持多远？",
+        "category": "乘员安全",
+        "rank": 1,
+        "latency_ms": 28.089300001738593,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p031-032-4a86be72c800",
+          "aito-m5-ev-p045-045-51bafc92f138",
+          "aito-m5-ev-p094-094-ea299a8b5b64",
+          "aito-m5-ev-p058-059-98306a52ad6b",
+          "aito-m5-ev-p097-097-c81e145a80c6"
+        ]
+      },
+      {
+        "id": "child-001",
+        "question": "身高低于140厘米的儿童可以坐副驾驶吗？",
+        "category": "乘员安全",
+        "rank": 1,
+        "latency_ms": 27.503400022396818,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p039-040-0bdddfb26027",
+          "aito-m5-ev-p032-033-09f3263310a3",
+          "aito-m5-ev-p043-043-453ab90d6e82",
+          "aito-m5-ev-p042-042-c1af08d49525",
+          "aito-m5-ev-p040-042-202b04cc6896"
+        ]
+      },
+      {
+        "id": "airbag-001",
+        "question": "安全气囊展开以后还能继续驾驶车辆吗？",
+        "category": "乘员安全",
+        "rank": 1,
+        "latency_ms": 21.995300019625574,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p047-048-8aa50a81d15a",
+          "aito-m5-ev-p048-050-bcd610037db1",
+          "aito-m5-ev-p047-047-daf7fa8c3737",
+          "aito-m5-ev-p044-044-93cf64d45b4a",
+          "aito-m5-ev-p051-051-2ada63b6bad4"
+        ]
+      },
+      {
+        "id": "drive-001",
+        "question": "涉水驾驶之后需要检查哪些项目？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 26.74600001773797,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p053-053-3a35007b33de",
+          "aito-m5-ev-p188-188-6c9d85754b46",
+          "aito-m5-ev-p202-202-88b392129e4b",
+          "aito-m5-ev-p197-197-73b4d5285503",
+          "aito-m5-ev-p193-193-7f85695c02f5"
+        ]
+      },
+      {
+        "id": "start-001",
+        "question": "车辆怎样正常启动，READY指示灯什么时候点亮？",
+        "category": "驾驶操作",
+        "rank": 4,
+        "latency_ms": 33.330900012515485,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p064-065-de86d9e2c210",
+          "aito-m5-ev-p068-069-ee19dd8756c2",
+          "aito-m5-ev-p084-084-d274df4fc57f",
+          "aito-m5-ev-p056-056-e2fa00e2b324",
+          "aito-m5-ev-p062-063-538eab3084c3"
+        ]
+      },
+      {
+        "id": "gear-001",
+        "question": "车辆无法移出P挡应该如何操作？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 24.51330001349561,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p060-060-99ef4353893c",
+          "aito-m5-ev-p060-061-deaa3d11610e",
+          "aito-m5-ev-p061-061-099a7ef1a4d6",
+          "aito-m5-ev-p086-086-4e2dd5964bbf",
+          "aito-m5-ev-p057-057-a6fa2359f07c"
+        ]
+      },
+      {
+        "id": "light-001",
+        "question": "大灯延时关闭可以设置多长时间？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 40.68049998022616,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p066-068-52cbbc5e57cc",
+          "aito-m5-ev-p068-069-ee19dd8756c2",
+          "aito-m5-ev-p120-121-1b92cabf12f7",
+          "aito-m5-ev-p157-157-2cafe38820fd",
+          "aito-m5-ev-p014-014-c838f381894e"
+        ]
+      },
+      {
+        "id": "wiper-001",
+        "question": "自动雨刮的灵敏度怎么调节？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 35.05320000112988,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p071-072-e62eeac50f58",
+          "aito-m5-ev-p072-072-431068be22bc",
+          "aito-m5-ev-p189-190-996b5332671b",
+          "aito-m5-ev-p189-189-1745d714a4e5",
+          "aito-m5-ev-p190-190-22b06ff286c4"
+        ]
+      },
+      {
+        "id": "mirror-001",
+        "question": "行驶过程中可以调节外后视镜吗？",
+        "category": "驾驶操作",
+        "rank": 1,
+        "latency_ms": 27.847899997141212,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p073-074-c08187535592",
+          "aito-m5-ev-p032-032-36dd1decd7c9",
+          "aito-m5-ev-p074-074-a170ab0a884a",
+          "aito-m5-ev-p135-135-e6ed32b54d55",
+          "aito-m5-ev-p074-074-80892744e099"
+        ]
+      },
+      {
+        "id": "power-001",
+        "question": "后备箱12V电源插座的最大功率是多少？",
+        "category": "车载设备",
+        "rank": 1,
+        "latency_ms": 35.29910001088865,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p080-081-7c7c6768844e",
+          "aito-m5-ev-p080-080-16ac1bb394c1",
+          "aito-m5-ev-p172-172-41d5a8d76638",
+          "aito-m5-ev-p168-168-70254075398c",
+          "aito-m5-ev-p026-027-a16b0e0fb2a5"
+        ]
+      },
+      {
+        "id": "brake-001",
+        "question": "紧急制动时制动踏板应该怎么踩？",
+        "category": "驾驶安全",
+        "rank": 3,
+        "latency_ms": 23.536199994850904,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p087-088-451bd8962ceb",
+          "aito-m5-ev-p101-102-1f371ffc770e",
+          "aito-m5-ev-p084-084-8f29c1919195",
+          "aito-m5-ev-p086-086-4e2dd5964bbf",
+          "aito-m5-ev-p088-088-3739ea2c1c7e"
+        ]
+      },
+      {
+        "id": "esc-001",
+        "question": "车辆转向过度或不足时ESC如何帮助稳定车辆？",
+        "category": "驾驶安全",
+        "rank": 1,
+        "latency_ms": 31.551699998090044,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p087-087-eeacfd4f13f6",
+          "aito-m5-ev-p087-088-451bd8962ceb",
+          "aito-m5-ev-p097-097-c81e145a80c6",
+          "aito-m5-ev-p088-088-3739ea2c1c7e",
+          "aito-m5-ev-p089-089-b122e4f290cf"
+        ]
+      },
+      {
+        "id": "acc-001",
+        "question": "自适应巡航检测到前方有车时会怎么控制车速？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 30.151600018143654,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p091-091-9c5c206f7646",
+          "aito-m5-ev-p092-093-fbc7809c844c",
+          "aito-m5-ev-p091-092-7e540e901115",
+          "aito-m5-ev-p101-102-1f371ffc770e",
+          "aito-m5-ev-p094-094-ea299a8b5b64"
+        ]
+      },
+      {
+        "id": "tja-001",
+        "question": "车道巡航辅助在什么车速范围内能保持车道居中？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 31.20090000447817,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p094-094-ea299a8b5b64",
+          "aito-m5-ev-p094-095-a0b86472afca",
+          "aito-m5-ev-p096-097-645aa055066e",
+          "aito-m5-ev-p095-095-a359484ad5e8",
+          "aito-m5-ev-p092-093-fbc7809c844c"
+        ]
+      },
+      {
+        "id": "bsd-001",
+        "question": "盲区监测发现旁边有车时会怎样提醒驾驶员？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 34.23099999781698,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p098-098-5e97c134cb04",
+          "aito-m5-ev-p100-100-4e1ce0f647f3",
+          "aito-m5-ev-p117-117-b584e4fb59eb",
+          "aito-m5-ev-p098-100-5a2a0b0e9be9",
+          "aito-m5-ev-p114-115-4210f87072f2"
+        ]
+      },
+      {
+        "id": "dow-001",
+        "question": "停车开门时怎样预警后方接近的自行车或行人？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 33.70530001120642,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p098-100-5a2a0b0e9be9",
+          "aito-m5-ev-p109-110-c9544d10bdf9",
+          "aito-m5-ev-p102-102-1fb02a12c83b",
+          "aito-m5-ev-p073-074-c08187535592",
+          "aito-m5-ev-p098-098-5e97c134cb04"
+        ]
+      },
+      {
+        "id": "aeb-001",
+        "question": "前方存在碰撞风险时辅助紧急制动系统有什么作用？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 32.794700004160404,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p101-101-26879977020c",
+          "aito-m5-ev-p102-102-1fb02a12c83b",
+          "aito-m5-ev-p101-102-1f371ffc770e",
+          "aito-m5-ev-p088-088-3739ea2c1c7e",
+          "aito-m5-ev-p086-086-4e2dd5964bbf"
+        ]
+      },
+      {
+        "id": "apa-001",
+        "question": "车速超过25公里每小时时还能开启辅助泊车吗？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 26.345199992647395,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p108-108-c197a9e17262",
+          "aito-m5-ev-p108-109-620809337f07",
+          "aito-m5-ev-p107-107-1b5e79e5b9a1",
+          "aito-m5-ev-p111-111-85e43a6b9ab5",
+          "aito-m5-ev-p109-110-c9544d10bdf9"
+        ]
+      },
+      {
+        "id": "camera-001",
+        "question": "全景影像有没有盲点，能否代替驾驶员观察？",
+        "category": "智能驾驶",
+        "rank": 1,
+        "latency_ms": 30.81140000722371,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p112-112-e944d99e1aac",
+          "aito-m5-ev-p113-113-978268432a14",
+          "aito-m5-ev-p112-113-d11bbdfa8bb1",
+          "aito-m5-ev-p100-100-4e1ce0f647f3",
+          "aito-m5-ev-p108-109-620809337f07"
+        ]
+      },
+      {
+        "id": "tpms-001",
+        "question": "胎压低于多少或高于多少会触发胎压报警？",
+        "category": "驾驶安全",
+        "rank": 1,
+        "latency_ms": 29.752900009043515,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p118-118-1ab3a59bc76c",
+          "aito-m5-ev-p182-182-fa05abc9c3b9",
+          "aito-m5-ev-p171-172-7fedb0f17972",
+          "aito-m5-ev-p182-183-52e36b87c8c7",
+          "aito-m5-ev-p064-064-185b88aec511"
+        ]
+      },
+      {
+        "id": "remote-001",
+        "question": "AITO App可以远程控制车辆的哪些功能？",
+        "category": "车载设备",
+        "rank": 1,
+        "latency_ms": 28.43489998485893,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p125-126-a94b19c29ee2",
+          "aito-m5-ev-p212-212-4fbdc5d4dbbd",
+          "aito-m5-ev-p127-128-38cb8da2b731",
+          "aito-m5-ev-p126-126-2f7e535c6e7c",
+          "aito-m5-ev-p152-152-07cff1e8cdd5"
+        ]
+      },
+      {
+        "id": "charge-001",
+        "question": "车辆支持哪三种充电方式，快充使用哪种充电桩？",
+        "category": "充电补能",
+        "rank": 1,
+        "latency_ms": 28.04499998455867,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p156-157-d82de676459e",
+          "aito-m5-ev-p161-162-89d27596385d",
+          "aito-m5-ev-p159-161-fd32cf3082bb",
+          "aito-m5-ev-p163-164-cbb450fcbf68",
+          "aito-m5-ev-p156-156-63415834f273"
+        ]
+      },
+      {
+        "id": "charge-002",
+        "question": "下雨天没有遮雨棚可以给车辆充电吗？",
+        "category": "充电补能",
+        "rank": 1,
+        "latency_ms": 29.313000006368384,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p156-156-dacfebee6223",
+          "aito-m5-ev-p163-164-cbb450fcbf68",
+          "aito-m5-ev-p075-075-b348ba0a11b6",
+          "aito-m5-ev-p081-082-71743122af07",
+          "aito-m5-ev-p071-072-e62eeac50f58"
+        ]
+      },
+      {
+        "id": "charge-003",
+        "question": "停电导致充电故障，恢复供电后会自动继续充电吗？",
+        "category": "充电补能",
+        "rank": 1,
+        "latency_ms": 30.535500001860783,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p157-158-0cdf929cf88c",
+          "aito-m5-ev-p156-156-dacfebee6223",
+          "aito-m5-ev-p165-165-99fbe7afe2b6",
+          "aito-m5-ev-p177-177-9c5afad25155",
+          "aito-m5-ev-p156-157-d82de676459e"
+        ]
+      },
+      {
+        "id": "trunk-001",
+        "question": "紧急情况下怎样从车内机械打开后备箱？",
+        "category": "应急处理",
+        "rank": 1,
+        "latency_ms": 29.81600002385676,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p168-168-70254075398c",
+          "aito-m5-ev-p026-026-e8246344fd2a",
+          "aito-m5-ev-p068-069-ee19dd8756c2",
+          "aito-m5-ev-p026-027-a16b0e0fb2a5",
+          "aito-m5-ev-p028-028-0240f0fcafe2"
+        ]
+      },
+      {
+        "id": "tire-001",
+        "question": "轮胎刺孔超过6毫米还能用补胎液修补吗？",
+        "category": "应急处理",
+        "rank": 1,
+        "latency_ms": 36.10969998408109,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p171-171-6e461a332a8d",
+          "aito-m5-ev-p171-172-7fedb0f17972",
+          "aito-m5-ev-p172-172-41d5a8d76638",
+          "aito-m5-ev-p182-183-52e36b87c8c7",
+          "aito-m5-ev-p118-118-1ab3a59bc76c"
+        ]
+      },
+      {
+        "id": "jump-001",
+        "question": "低压蓄电池没电导致车辆无法启动时怎么搭电？",
+        "category": "应急处理",
+        "rank": 1,
+        "latency_ms": 30.1358999859076,
+        "returned_chunk_ids": [
+          "aito-m5-ev-p175-175-584df3e6ed39",
+          "aito-m5-ev-p180-180-fb2c3030d506",
+          "aito-m5-ev-p180-180-1c9e5ea27be1",
+          "aito-m5-ev-p165-165-99fbe7afe2b6",
+          "aito-m5-ev-p180-180-1ed1e808c102"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "metrics": {
+    "question_count": 3,
+    "answerable_count": 3,
+    "unanswerable_count": 0,
+    "pass_rate": 0.6666666666666666,
+    "answer_point_recall": 0.8888888888888888,
+    "fully_correct_answer_rate": 0.6666666666666666,
+    "citation_hit_rate": 1.0,
+    "citation_precision": 0.8333333333333334,
+    "refusal_accuracy": 0.0,
+    "average_latency_ms": 3473.5244666711274,
+    "p95_latency_ms": 4371.506700001191,
+    "total_prompt_tokens": 5585,
+    "total_completion_tokens": 273,
+    "total_tokens": 5858
+  },
+  "details": [
+    {
+      "id": "key-001",
+      "question": "仪表提示遥控钥匙电量低时应该怎么办？",
+      "category": "车辆控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "当仪表提示遥控钥匙电量低时，应尽快更换遥控钥匙电池。更换步骤如下：1. 使用一字螺丝刀撬开遥控钥匙后盖（螺丝刀头部需罩上抹布，避免损坏后壳）；2. 取出遥控钥匙电路板；3. 更换新电池。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 2,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 0.5,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p015-016-137e9d354501",
+        "aito-m5-ev-p013-014-b77e8fdc8c63"
+      ],
+      "cited_pages": [
+        15,
+        13
+      ],
+      "passed": true,
+      "latency_ms": 4371.506700001191,
+      "prompt_tokens": 1831,
+      "completion_tokens": 100,
+      "total_tokens": 1931,
+      "error": null
+    },
+    {
+      "id": "door-001",
+      "question": "怎么开启后排儿童安全锁，开启后车门能从里面打开吗？",
+      "category": "车辆控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "在中控屏上点击‘车门儿童锁’开关，图标点亮后即开启后排儿童安全锁；开启后，后排车门无法从车内通过内把手打开，只能从车外打开。",
+      "answer_point_recall": 0.6666666666666666,
+      "matched_answer_points": 2,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p019-020-034f04a0340a",
+        "aito-m5-ev-p018-019-bcbeb8827002"
+      ],
+      "cited_pages": [
+        19,
+        18
+      ],
+      "passed": false,
+      "latency_ms": 2863.2663000025786,
+      "prompt_tokens": 1758,
+      "completion_tokens": 79,
+      "total_tokens": 1837,
+      "error": null
+    },
+    {
+      "id": "window-001",
+      "question": "车窗如何一键自动升降，中途怎么让它停止？",
+      "category": "车辆控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "车窗一键自动升降操作方法：拉起或按下任意车窗控制开关至其极限位置（第2个档位），车窗将自动上升或下降至极限位置。中途停止方法：在自动升降过程中，重新拉起或按下相应控制按键，车窗即停止升降。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p022-024-df6ff9b20f1e"
+      ],
+      "cited_pages": [
+        22
+      ],
+      "passed": true,
+      "latency_ms": 3185.8004000096116,
+      "prompt_tokens": 1996,
+      "completion_tokens": 94,
+      "total_tokens": 2090,
+      "error": null
+    }
+  ]
+}

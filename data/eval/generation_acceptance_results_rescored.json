@@ -1,0 +1,634 @@
+{
+  "metrics": {
+    "question_count": 25,
+    "answerable_count": 20,
+    "unanswerable_count": 5,
+    "pass_rate": 0.96,
+    "answer_point_recall": 0.9833333333333334,
+    "fully_correct_answer_rate": 0.95,
+    "citation_hit_rate": 1.0,
+    "citation_precision": 0.9833333333333334,
+    "refusal_accuracy": 1.0,
+    "average_latency_ms": 3508.5494902776554,
+    "p95_latency_ms": 4870.887566998135,
+    "total_prompt_tokens": 41032,
+    "total_completion_tokens": 2007,
+    "total_tokens": 43039
+  },
+  "details": [
+    {
+      "id": "accept-belt-height-001",
+      "question": "前排安全带高度向上和向下分别怎么调，调完后怎样确认已经锁止？",
+      "category": "被动安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "向上调节：向上抬起调节机构，调节安全带高度；向下调节：按住调节机构按键，向下调节安全带高度。调节完成后，向下拉动安全带，确认安全带高度调节机构锁止到位。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p046-046-08bc2c45e6f0"
+      ],
+      "cited_pages": [
+        46
+      ],
+      "passed": true,
+      "latency_ms": 5053.8361219805665,
+      "prompt_tokens": 2154,
+      "completion_tokens": 77,
+      "total_tokens": 2231,
+      "error": null
+    },
+    {
+      "id": "accept-window-pinch-001",
+      "question": "关闭车窗时碰到障碍物，防夹功能会怎样动作？可以故意伸物体测试吗？",
+      "category": "车窗控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "关闭车窗时碰到障碍物，防夹功能会立即停止关闭并下移一定距离。切勿以测试防夹功能为目的将任何物体伸出车窗，否则可能损坏防夹机构。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p025-025-574b497f6dd7"
+      ],
+      "cited_pages": [
+        25
+      ],
+      "passed": true,
+      "latency_ms": 3603.315582993673,
+      "prompt_tokens": 1942,
+      "completion_tokens": 74,
+      "total_tokens": 2016,
+      "error": null
+    },
+    {
+      "id": "accept-storage-001",
+      "question": "车辆长期停放时，为维护动力电池，每月至少要做什么？日常使用又建议多久充满一次？",
+      "category": "车辆养护",
+      "answerable": true,
+      "refused": false,
+      "answer": "车辆长期停放时，每月至少要将动力电池充满一次；日常使用时，建议每周至少充满一次。",
+      "answer_point_recall": 0.6666666666666666,
+      "matched_answer_points": 2,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p180-180-fb2c3030d506"
+      ],
+      "cited_pages": [
+        180
+      ],
+      "passed": false,
+      "latency_ms": 2625.200250011403,
+      "prompt_tokens": 1631,
+      "completion_tokens": 54,
+      "total_tokens": 1685,
+      "error": null
+    },
+    {
+      "id": "accept-pedestrian-sound-001",
+      "question": "低速行人警示音在什么车速下工作，车辆挂R挡静止时会响吗，可以选择哪些声音？",
+      "category": "驾驶安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "低速行人警示音在车速低于30km/h时工作；车辆挂R挡静止时会响；可选择的声音有森林、海洋或星辰三种。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p119-119-f38627324da3"
+      ],
+      "cited_pages": [
+        119
+      ],
+      "passed": true,
+      "latency_ms": 3270.598318980774,
+      "prompt_tokens": 1814,
+      "completion_tokens": 68,
+      "total_tokens": 1882,
+      "error": null
+    },
+    {
+      "id": "accept-etc-001",
+      "question": "激活原装ETC前要准备哪些证件或账户资料，并从哪个微信小程序开始办理？",
+      "category": "车载设备",
+      "answerable": true,
+      "refused": false,
+      "answer": "激活原装ETC前需准备身份证、车辆行驶证及银行卡；办理需从微信“中国 ETC 服务”小程序开始。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p124-124-434e951cb22f"
+      ],
+      "cited_pages": [
+        124
+      ],
+      "passed": true,
+      "latency_ms": 2835.3612209903076,
+      "prompt_tokens": 1363,
+      "completion_tokens": 61,
+      "total_tokens": 1424,
+      "error": null
+    },
+    {
+      "id": "accept-dms-001",
+      "question": "驾驶员监测系统会监测哪两类状态？哪些面部或摄像头情况可能影响识别？",
+      "category": "智能驾驶辅助",
+      "answerable": true,
+      "refused": false,
+      "answer": "驾驶员监测系统会监测疲劳状态和分神状态。可能影响识别的面部或摄像头情况包括：驾驶员状态监控摄像头被遮挡；佩戴墨镜、口罩等遮挡面部的饰物；强烈的光照降低摄像头检测能力；驾驶员状态监控摄像头权限关闭。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p117-117-b584e4fb59eb"
+      ],
+      "cited_pages": [
+        117
+      ],
+      "passed": true,
+      "latency_ms": 3880.4760269995313,
+      "prompt_tokens": 1913,
+      "completion_tokens": 88,
+      "total_tokens": 2001,
+      "error": null
+    },
+    {
+      "id": "accept-hud-001",
+      "question": "抬头显示可以投射哪些主要信息，戴偏光太阳镜看不清时怎么办？",
+      "category": "智能驾驶辅助",
+      "answerable": true,
+      "refused": false,
+      "answer": "抬头显示可以投射当前车速、道路导航和驾驶辅助信息等。戴偏光太阳镜看不清时，可调节抬头显示亮度或取下太阳镜；也可通过调节座椅高度和抬头显示高度改善清晰度。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p122-123-f70eeb4f2572"
+      ],
+      "cited_pages": [
+        122
+      ],
+      "passed": true,
+      "latency_ms": 3286.4117749850266,
+      "prompt_tokens": 1553,
+      "completion_tokens": 81,
+      "total_tokens": 1634,
+      "error": null
+    },
+    {
+      "id": "accept-sla-001",
+      "question": "限速标识识别系统会主动控制车辆减速吗，最终控制责任在谁？",
+      "category": "智能驾驶辅助",
+      "answerable": true,
+      "refused": false,
+      "answer": "限速标识识别系统（SLA）不会主动控制车辆减速，仅提供限速信息提醒；最终控制责任始终在驾驶员手中。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 2,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p104-104-4d2ae5a7d458"
+      ],
+      "cited_pages": [
+        104
+      ],
+      "passed": true,
+      "latency_ms": 3358.4408450115006,
+      "prompt_tokens": 1696,
+      "completion_tokens": 61,
+      "total_tokens": 1757,
+      "error": null
+    },
+    {
+      "id": "accept-hma-001",
+      "question": "智能灯光辅助开启后，满足什么挡位和车速条件时才会自动切换远近光灯？",
+      "category": "灯光控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "智能灯光辅助开启后，需满足灯光开关处于“AUTO”档位，且车速大于40km/h时，系统才会根据行车环境自动切换远近光灯。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p105-105-d5069a145241"
+      ],
+      "cited_pages": [
+        105
+      ],
+      "passed": true,
+      "latency_ms": 3987.96991398558,
+      "prompt_tokens": 2186,
+      "completion_tokens": 70,
+      "total_tokens": 2256,
+      "error": null
+    },
+    {
+      "id": "accept-private-audio-001",
+      "question": "音乐头枕的专注模式和私享模式分别会把哪些声音从头枕音响播放？",
+      "category": "多媒体",
+      "answerable": true,
+      "refused": false,
+      "answer": "专注模式下，通话、导航与辅助驾驶播报由头枕音响播放；私享模式下，除了提示音外，所有声音由头枕音响播放。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 2,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p149-149-2a1e90897126"
+      ],
+      "cited_pages": [
+        149
+      ],
+      "passed": true,
+      "latency_ms": 2887.0622550020926,
+      "prompt_tokens": 994,
+      "completion_tokens": 66,
+      "total_tokens": 1060,
+      "error": null
+    },
+    {
+      "id": "accept-car-wash-001",
+      "question": "怎样开启和退出洗车模式？传送带洗车时可以开启这个模式吗？",
+      "category": "车辆养护",
+      "answerable": true,
+      "refused": false,
+      "answer": "开启洗车模式：挡位置于P挡时，在中控屏内点击“洗车模式”按键，选择“确定”后车辆将自动下电。退出洗车模式：踩下刹车踏板即可退出。传送带洗车时不可以开启洗车模式。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p192-193-42fc589be786"
+      ],
+      "cited_pages": [
+        192
+      ],
+      "passed": true,
+      "latency_ms": 3683.7928630120587,
+      "prompt_tokens": 2184,
+      "completion_tokens": 90,
+      "total_tokens": 2274,
+      "error": null
+    },
+    {
+      "id": "accept-wiper-service-001",
+      "question": "启用雨刮维修模式前雨刮和挡位要满足什么条件，哪些操作会让雨刮自动回位？",
+      "category": "车辆养护",
+      "answerable": true,
+      "refused": false,
+      "answer": "启用雨刮维修模式前，雨刮必须处于“OFF”档位；车辆需处于驻车挡。以下操作会让雨刮自动回位：① 将车辆换到驻车挡以外；② 前雨刮器/洗涤器或自动刮刷功能被激活。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p189-189-1745d714a4e5"
+      ],
+      "cited_pages": [
+        189
+      ],
+      "passed": true,
+      "latency_ms": 3867.8668740030844,
+      "prompt_tokens": 1454,
+      "completion_tokens": 95,
+      "total_tokens": 1549,
+      "error": null
+    },
+    {
+      "id": "accept-brake-fluid-001",
+      "question": "检查制动液时，正常液位应该位于哪两个标记之间？如果接触皮肤或眼睛怎么处理？",
+      "category": "车辆养护",
+      "answerable": true,
+      "refused": false,
+      "answer": "正常液位应位于MIN与MAX标记之间；如制动液接触皮肤或眼睛，应立即用大量清水冲洗。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 2,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p188-188-6c9d85754b46"
+      ],
+      "cited_pages": [
+        188
+      ],
+      "passed": true,
+      "latency_ms": 2532.0929260051344,
+      "prompt_tokens": 1254,
+      "completion_tokens": 57,
+      "total_tokens": 1311,
+      "error": null
+    },
+    {
+      "id": "accept-washer-fluid-001",
+      "question": "挡风玻璃洗涤液加注口在哪里？低于冰点时应使用什么洗涤液，液罐空时能继续使用洗涤器吗？",
+      "category": "车辆养护",
+      "answerable": true,
+      "refused": false,
+      "answer": "挡风玻璃洗涤液加注口位于前舱右侧；当温度低于冰点时，应使用含防冻剂的洗涤液；洗涤液罐空时不能继续使用洗涤器，否则会损坏洗涤器。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p186-186-8e75e17a5c5c"
+      ],
+      "cited_pages": [
+        186
+      ],
+      "passed": true,
+      "latency_ms": 3073.273996997159,
+      "prompt_tokens": 1498,
+      "completion_tokens": 78,
+      "total_tokens": 1576,
+      "error": null
+    },
+    {
+      "id": "accept-high-voltage-001",
+      "question": "车辆哪些区域装有高压部件，高压电缆用什么颜色的外管识别，车主能自行拆卸吗？",
+      "category": "高压安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "车辆在前舱、后备厢及底盘区域装有高压部件；高压电缆使用橙色波纹管（或橙色外管）识别；车主不能自行拆卸高压部件及高压电缆，必须由具有资质的专业人员操作。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 0.6666666666666666,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p154-154-4d6646975b50",
+        "aito-m5-ev-p154-155-5249e66204cc",
+        "aito-m5-ev-p166-166-2a0d11a76402"
+      ],
+      "cited_pages": [
+        154,
+        154,
+        166
+      ],
+      "passed": true,
+      "latency_ms": 3595.7356420112774,
+      "prompt_tokens": 1182,
+      "completion_tokens": 90,
+      "total_tokens": 1272,
+      "error": null
+    },
+    {
+      "id": "accept-vin-001",
+      "question": "使用诊断工具读取VIN码时，应把什么接头连接到车辆哪个位置？",
+      "category": "车辆识别",
+      "answerable": true,
+      "refused": false,
+      "answer": "应使用赛力斯汽车专用诊断仪中的OBD接头，连接到位于主驾仪表台底部的OBD诊断接口。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p181-181-eda974060e13"
+      ],
+      "cited_pages": [
+        181
+      ],
+      "passed": true,
+      "latency_ms": 2979.403204022674,
+      "prompt_tokens": 1402,
+      "completion_tokens": 60,
+      "total_tokens": 1462,
+      "error": null
+    },
+    {
+      "id": "accept-hood-001",
+      "question": "怎样从车内机械打开前舱盖？关闭时应该按压还是让它自由落下？",
+      "category": "车辆开启与关闭",
+      "answerable": true,
+      "refused": false,
+      "answer": "从车内机械打开前舱盖的方法是：连续拉动两次驾驶员侧仪表板下部的打开手柄，前舱盖会自动解锁并弹起到一定高度，随后手动抬起即可。关闭前舱盖时，应完全降低前舱盖直至触及锁闩，然后双手放在指定区域用力向下按压关闭，切勿让其自由落下，以防损坏或发生危险。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p029-029-c16aa99d8d2c"
+      ],
+      "cited_pages": [
+        29
+      ],
+      "passed": true,
+      "latency_ms": 4000.136565999128,
+      "prompt_tokens": 1106,
+      "completion_tokens": 108,
+      "total_tokens": 1214,
+      "error": null
+    },
+    {
+      "id": "accept-seat-welcome-001",
+      "question": "主驾座椅迎宾功能在什么停车和开门条件下动作？后排有乘客时还会执行吗？",
+      "category": "座椅功能",
+      "answerable": true,
+      "refused": false,
+      "answer": "主驾座椅迎宾功能在车辆完全停稳、挡位切换至驻车挡（P挡）且打开驾驶员侧车门时动作；当主驾后排有乘客时，主驾座椅不会执行迎宾功能。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p032-033-09f3263310a3"
+      ],
+      "cited_pages": [
+        32
+      ],
+      "passed": true,
+      "latency_ms": 3729.3162060086615,
+      "prompt_tokens": 1781,
+      "completion_tokens": 80,
+      "total_tokens": 1861,
+      "error": null
+    },
+    {
+      "id": "accept-rear-seat-001",
+      "question": "后排座椅靠背怎样折叠，折叠后最多能承受多大负荷，恢复后要检查什么？",
+      "category": "座椅功能",
+      "answerable": true,
+      "refused": false,
+      "answer": "1. 拉起折叠拉手使其解锁，顺势将靠背向前放倒；\n2. 折叠后最多能承受20kg负荷；\n3. 恢复后必须确认座椅靠背锁定到位，并确保安全带未卡在靠背后面。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p037-038-f6015e408aef"
+      ],
+      "cited_pages": [
+        37
+      ],
+      "passed": true,
+      "latency_ms": 3608.9031889860053,
+      "prompt_tokens": 1712,
+      "completion_tokens": 94,
+      "total_tokens": 1806,
+      "error": null
+    },
+    {
+      "id": "accept-v2l-001",
+      "question": "使用V2L对外供电需要多少电量才能进入，低于多少会自动退出，最大输出功率是多少？",
+      "category": "车辆供电",
+      "answerable": true,
+      "refused": false,
+      "answer": "使用V2L对外供电需电量大于15%才能进入，电量低于10%会自动退出，最大输出功率为3.5kW。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p162-163-c7543824e3ec"
+      ],
+      "cited_pages": [
+        162
+      ],
+      "passed": true,
+      "latency_ms": 2975.1214610005263,
+      "prompt_tokens": 1644,
+      "completion_tokens": 65,
+      "total_tokens": 1709,
+      "error": null
+    },
+    {
+      "id": "accept-refuse-001",
+      "question": "今天上海各品牌公共充电站的实时电价分别是多少？",
+      "category": "动态外部信息",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。说明书资料仅涉及车辆充电操作、方式及中控屏设置等内容，未包含任何关于公共充电站实时电价的数据或查询方法。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 2989.0118119947147,
+      "prompt_tokens": 1578,
+      "completion_tokens": 70,
+      "total_tokens": 1648,
+      "error": null
+    },
+    {
+      "id": "accept-refuse-002",
+      "question": "我当前位置附近营业到凌晨的轮胎店有哪些？",
+      "category": "位置与商户信息",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。资料中未包含轮胎店地理位置、营业时间或相关查询方式的信息",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 4184.63980598608,
+      "prompt_tokens": 2141,
+      "completion_tokens": 104,
+      "total_tokens": 2245,
+      "error": null
+    },
+    {
+      "id": "accept-refuse-003",
+      "question": "我的这辆车当前动力电池健康度具体是多少百分比？",
+      "category": "具体车辆状态",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。所提供的资料S1、S2、S3均未提及动力电池健康度（SOH）的显示位置、查询方式或具体数值，也未说明如何获取该百分比。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 3619.8008009814657,
+      "prompt_tokens": 1435,
+      "completion_tokens": 90,
+      "total_tokens": 1525,
+      "error": null
+    },
+    {
+      "id": "accept-refuse-004",
+      "question": "我昨天发生的追尾事故应由哪一方承担法律责任？",
+      "category": "个案法律判断",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。所提供的说明书资料（S1-S3）仅涵盖倒车雷达系统、道路救援及拖车模式等车辆功能与应急操作说明，未包含任何关于交通事故责任认定、法律适用或责任划分的条款或指引。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 4870.887566998135,
+      "prompt_tokens": 2109,
+      "completion_tokens": 140,
+      "total_tokens": 2249,
+      "error": null
+    },
+    {
+      "id": "accept-refuse-005",
+      "question": "根据明天的气温和我的驾驶习惯，这辆车实际能行驶多少公里？",
+      "category": "个性化预测",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。资料中未包含续航里程相关参数、环境温度影响说明或驾驶习惯对能耗影响的描述",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 3215.0820319948252,
+      "prompt_tokens": 1306,
+      "completion_tokens": 86,
+      "total_tokens": 1392,
+      "error": null
+    }
+  ],
+  "metadata": {
+    "dataset_path": "C:\\Users\\zlw\\Documents\\ChatGPT\\RAG知识库\\ev-manual-rag\\data\\eval\\generation_acceptance_questions.jsonl",
+    "dataset_sha256": "b0dfe019a38d2e42769e3334da52aa749c8f607c669a3956a45704c4c15850eb",
+    "reused_responses": true
+  }
+}

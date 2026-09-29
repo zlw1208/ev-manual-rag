@@ -1,0 +1,505 @@
+{
+  "metrics": {
+    "question_count": 20,
+    "answerable_count": 16,
+    "unanswerable_count": 4,
+    "pass_rate": 0.75,
+    "answer_point_recall": 0.84375,
+    "fully_correct_answer_rate": 0.6875,
+    "citation_hit_rate": 0.9375,
+    "citation_precision": 0.9375,
+    "refusal_accuracy": 1.0,
+    "average_latency_ms": 2952.622120002343,
+    "p95_latency_ms": 3629.4199000112712,
+    "total_prompt_tokens": 33235,
+    "total_completion_tokens": 1690,
+    "total_tokens": 34925
+  },
+  "details": [
+    {
+      "id": "test-ac-001",
+      "question": "开启空调自动模式后，如果我手动改变风量，自动模式还会继续吗？",
+      "category": "空调控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "不会继续。开启空调自动模式后，手动调节风量将退出自动模式。",
+      "answer_point_recall": 0.5,
+      "matched_answer_points": 1,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p135-135-d747e6e0c0e0"
+      ],
+      "cited_pages": [
+        135
+      ],
+      "passed": false,
+      "latency_ms": 2774.096900015138,
+      "prompt_tokens": 946,
+      "completion_tokens": 44,
+      "total_tokens": 990,
+      "error": null
+    },
+    {
+      "id": "test-fragrance-001",
+      "question": "车载香氛提供哪些香型和浓度档位？",
+      "category": "舒适功能",
+      "answerable": true,
+      "refused": false,
+      "answer": "车载香氛提供3种香型：沉静如珀、清雅若林、和畅似风；4种浓度档位：关闭、淡雅、适中、浓郁。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p138-138-f095f8f88dd0"
+      ],
+      "cited_pages": [
+        138
+      ],
+      "passed": true,
+      "latency_ms": 2334.9551999999676,
+      "prompt_tokens": 1193,
+      "completion_tokens": 71,
+      "total_tokens": 1264,
+      "error": null
+    },
+    {
+      "id": "test-camera-001",
+      "question": "车内摄像头可以用来做什么，不使用时需要注意什么？",
+      "category": "车载设备",
+      "answerable": true,
+      "refused": false,
+      "answer": "车内摄像头可用于自拍或作为畅连视频通话使用；不使用时需关闭摄像头盖板，并避免用尖锐物品敲击摄像头。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p140-140-ef0e7f67c88a"
+      ],
+      "cited_pages": [
+        140
+      ],
+      "passed": true,
+      "latency_ms": 2483.497899986105,
+      "prompt_tokens": 1640,
+      "completion_tokens": 62,
+      "total_tokens": 1702,
+      "error": null
+    },
+    {
+      "id": "test-bluetooth-001",
+      "question": "第一次把手机和车辆蓝牙配对时应该怎么确认？",
+      "category": "连接功能",
+      "answerable": true,
+      "refused": false,
+      "answer": "第一次将手机与车辆蓝牙配对时，需先在中控屏开启蓝牙功能，然后选择手机设备；接着检查车辆上显示的蓝牙配对码是否与手机上显示的配对码一致，并在车辆和手机上分别确认。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p141-141-37272aaa9390"
+      ],
+      "cited_pages": [
+        141
+      ],
+      "passed": true,
+      "latency_ms": 2937.4673000129405,
+      "prompt_tokens": 1711,
+      "completion_tokens": 85,
+      "total_tokens": 1796,
+      "error": null
+    },
+    {
+      "id": "test-voice-001",
+      "question": "不用触摸中控屏，怎样唤起车辆语音控制？",
+      "category": "语音控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "不用触摸中控屏，可通过按下方向盘左侧按键上的“ ”按键或说出唤醒词来唤起车辆语音控制。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p147-147-8cf589b1efe7"
+      ],
+      "cited_pages": [
+        147
+      ],
+      "passed": true,
+      "latency_ms": 1962.1803000045475,
+      "prompt_tokens": 1148,
+      "completion_tokens": 52,
+      "total_tokens": 1200,
+      "error": null
+    },
+    {
+      "id": "test-nap-001",
+      "question": "小憩模式启动后，车辆会自动调整哪些功能？",
+      "category": "情景模式",
+      "answerable": true,
+      "refused": false,
+      "answer": "小憩模式启动后，车辆会自动调整以下功能：\n1. 空调保持适宜温度。\n2. 座椅下降至舒适位置。\n3. 音乐自动播放（可被打断）并调至合适音量。\n4. 车门和后备箱锁止。\n5. 关闭车窗。\n6. 关闭氛围灯。\n7. 关闭仪表显示屏等。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 5,
+      "total_answer_points": 5,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p150-150-167e1c0616ee"
+      ],
+      "cited_pages": [
+        150
+      ],
+      "passed": true,
+      "latency_ms": 3629.4199000112712,
+      "prompt_tokens": 1869,
+      "completion_tokens": 120,
+      "total_tokens": 1989,
+      "error": null
+    },
+    {
+      "id": "test-ota-001",
+      "question": "车辆软件可以通过哪些入口检查或执行OTA升级？",
+      "category": "软件升级",
+      "answerable": true,
+      "refused": false,
+      "answer": "车辆软件可以通过以下两个入口检查或执行OTA升级：\n1. 通过AITO App：点击“我的>我的车辆”，选择对应车辆，点击“车辆软件版本”，可选择立即更新或预约更新。\n2. 通过中控屏：进入“系统更新”选项，系统将自动检查更新。",
+      "answer_point_recall": 0.75,
+      "matched_answer_points": 3,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p152-152-07cff1e8cdd5"
+      ],
+      "cited_pages": [
+        152
+      ],
+      "passed": false,
+      "latency_ms": 3220.067399990512,
+      "prompt_tokens": 1321,
+      "completion_tokens": 100,
+      "total_tokens": 1421,
+      "error": null
+    },
+    {
+      "id": "test-power-save-001",
+      "question": "动力电池电量低到多少时可以开启超级省电模式，开启后会限制什么？",
+      "category": "充电补能",
+      "answerable": true,
+      "refused": false,
+      "answer": "动力电池电量低于15%时可以开启超级省电模式；开启后会限制车速、空调功率等，从而提升续航能力。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p157-157-2cafe38820fd"
+      ],
+      "cited_pages": [
+        157
+      ],
+      "passed": true,
+      "latency_ms": 2213.156300014816,
+      "prompt_tokens": 1639,
+      "completion_tokens": 56,
+      "total_tokens": 1695,
+      "error": null
+    },
+    {
+      "id": "test-float-charge-001",
+      "question": "电量已经在98%时插枪，车辆为什么可能不进入充电，指示灯是什么颜色？",
+      "category": "充电补能",
+      "answerable": true,
+      "refused": false,
+      "answer": "因为车辆默认动力电池剩余电量在97%~100%之间不能进入充电状态，属于防浮充保护机制；此时充电口指示灯显示黄色。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p158-158-66ed36c33a9c"
+      ],
+      "cited_pages": [
+        158
+      ],
+      "passed": true,
+      "latency_ms": 2594.060100003844,
+      "prompt_tokens": 1519,
+      "completion_tokens": 67,
+      "total_tokens": 1586,
+      "error": null
+    },
+    {
+      "id": "test-recycle-001",
+      "question": "报废车辆的动力电池可以自己拆下来交给普通废品站吗？",
+      "category": "电池安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "不可以。报废车辆的动力电池必须由具有资质的专业人员拆解，严禁私自拆卸；动力电池属于第九类危险品，需由具备相应资质的单位回收处理，普通废品站不具备接收和处理资质。私自拆卸或交由非指定单位处置，可能导致环境污染或安全事故，并由所有人承担相应责任。",
+      "answer_point_recall": 0.6666666666666666,
+      "matched_answer_points": 2,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p166-166-2a0d11a76402"
+      ],
+      "cited_pages": [
+        166
+      ],
+      "passed": false,
+      "latency_ms": 3205.9777000104077,
+      "prompt_tokens": 1588,
+      "completion_tokens": 100,
+      "total_tokens": 1688,
+      "error": null
+    },
+    {
+      "id": "test-charge-unlock-001",
+      "question": "充电枪在中控屏上无法解锁时，应急拉线在哪里、怎么操作？",
+      "category": "应急处理",
+      "answerable": true,
+      "refused": false,
+      "answer": "应急解锁拉线位于后备箱左侧。操作步骤如下：1. 打开后备箱；2. 使用合适的工具拆卸后备箱左侧装饰盖板；3. 拉动充电枪应急解锁拉线解锁充电枪。注意该操作仅用于紧急状态，若中控屏无法解锁充电枪，应尽快到AITO用户中心检修。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p169-169-431a33050d93"
+      ],
+      "cited_pages": [
+        169
+      ],
+      "passed": true,
+      "latency_ms": 3510.4578000027686,
+      "prompt_tokens": 1699,
+      "completion_tokens": 108,
+      "total_tokens": 1807,
+      "error": null
+    },
+    {
+      "id": "test-tow-001",
+      "question": "车辆被牵引前怎样开启拖车模式，需要满足什么安全条件？",
+      "category": "应急处理",
+      "answerable": true,
+      "refused": false,
+      "answer": "车辆被牵引前开启拖车模式的操作步骤及安全条件如下：\n1. 确保车辆处于静止状态；\n2. 将挡位切换至P挡或N挡；\n3. 踩下制动踏板；\n4. 在中控屏上点击“拖车模式”开关，使其图标点亮，即开启拖车模式。\n\n安全条件包括：车辆必须静止，避免溜车；禁止车内逗留人员；禁止人员站在车辆后方；牵引时须使用前部牵引环（或后部牵引环，依实际需要），且绳索只能系在牵引环上。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p173-174-3bd15a28f6b9"
+      ],
+      "cited_pages": [
+        173
+      ],
+      "passed": true,
+      "latency_ms": 5014.28850000957,
+      "prompt_tokens": 2172,
+      "completion_tokens": 172,
+      "total_tokens": 2344,
+      "error": null
+    },
+    {
+      "id": "test-rescue-001",
+      "question": "AITO道路救援在中国大陆的服务时间和联系电话是什么？",
+      "category": "道路救援",
+      "answerable": true,
+      "refused": false,
+      "answer": "AITO道路救援在中国大陆的服务时间为全天24小时、全年365天；联系电话为400-008-9999。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p178-178-f616640b445a"
+      ],
+      "cited_pages": [
+        178
+      ],
+      "passed": true,
+      "latency_ms": 2489.307799987728,
+      "prompt_tokens": 1830,
+      "completion_tokens": 65,
+      "total_tokens": 1895,
+      "error": null
+    },
+    {
+      "id": "test-chain-001",
+      "question": "冰雪路面使用防滑链时应该装在哪些车轮，最高能开多快？",
+      "category": "轮胎养护",
+      "answerable": true,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。资料[S3]仅提到‘在冰雪路面行驶时使用冬季轮胎或防滑链，可以明显改善汽车的行驶性能’，但未说明防滑链安装位置（如前轮、后轮或四轮）及对应最高车速限制。",
+      "answer_point_recall": 0.3333333333333333,
+      "matched_answer_points": 1,
+      "total_answer_points": 3,
+      "citation_hit": false,
+      "citation_precision": 0.0,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": false,
+      "latency_ms": 3566.0135000071023,
+      "prompt_tokens": 1696,
+      "completion_tokens": 113,
+      "total_tokens": 1809,
+      "error": null
+    },
+    {
+      "id": "test-coolant-001",
+      "question": "发现冷却液低于MIN线应该怎么办，车辆刚下电且冷却液很热时能开盖吗？",
+      "category": "车辆养护",
+      "answerable": true,
+      "refused": false,
+      "answer": "如果冷却液低于MIN线，应尽快停车并联系AITO用户中心进行检查；车辆刚下电且冷却液很热时，严禁打开膨胀罐盖。",
+      "answer_point_recall": 0.25,
+      "matched_answer_points": 1,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p187-187-79be5c61f70d"
+      ],
+      "cited_pages": [
+        187
+      ],
+      "passed": false,
+      "latency_ms": 2516.2348999874666,
+      "prompt_tokens": 1491,
+      "completion_tokens": 67,
+      "total_tokens": 1558,
+      "error": null
+    },
+    {
+      "id": "test-fuse-001",
+      "question": "车辆有哪几个保险丝盒，车主可以自行拆换保险丝吗？",
+      "category": "车辆养护",
+      "answerable": true,
+      "refused": false,
+      "answer": "车辆有三个保险丝盒：1. 前机舱内的保险丝盒（位于前舱左侧）；2. 仪表盘左侧的保险丝盒；3. 后备箱左侧的保险丝盒。车主不可自行拆换保险丝，所有保险丝的操作必须由AITO用户中心的专业人员进行。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 5,
+      "total_answer_points": 5,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p191-191-485491909be5"
+      ],
+      "cited_pages": [
+        191
+      ],
+      "passed": true,
+      "latency_ms": 3310.239199985517,
+      "prompt_tokens": 1928,
+      "completion_tokens": 101,
+      "total_tokens": 2029,
+      "error": null
+    },
+    {
+      "id": "test-refuse-001",
+      "question": "我所在小区今晚还有几个空闲充电桩？",
+      "category": "拒答",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。说明书资料中未包含充电桩实时状态、小区充电设施查询或第三方平台对接等相关内容。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 2598.1424000055995,
+      "prompt_tokens": 2133,
+      "completion_tokens": 67,
+      "total_tokens": 2200,
+      "error": null
+    },
+    {
+      "id": "test-refuse-002",
+      "question": "下一次OTA具体会在几月几日发布，并新增哪些功能？",
+      "category": "拒答",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。资料中未提及下一次OTA的具体发布时间和新增功能内容；仅在S1中提到可通过中控屏查看发行说明以了解最近发布的功能，但未给出未来OTA计划。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 3193.305099994177,
+      "prompt_tokens": 1902,
+      "completion_tokens": 95,
+      "total_tokens": 1997,
+      "error": null
+    },
+    {
+      "id": "test-refuse-003",
+      "question": "这辆车明年的二手车成交价预计是多少？",
+      "category": "拒答",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。所有提供的说明书资料均涉及儿童安全座椅、盲区监测系统和制动系统等车辆功能与安全操作，未包含市场估值、保值率或二手车价格预测相关内容。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 2884.8443000169937,
+      "prompt_tokens": 1916,
+      "completion_tokens": 77,
+      "total_tokens": 1993,
+      "error": null
+    },
+    {
+      "id": "test-refuse-004",
+      "question": "给这辆车购买商业保险最低需要多少钱？",
+      "category": "拒答",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。所提供的说明书资料仅涵盖保养、安全气囊注意事项和保险丝盒相关内容，未涉及车辆商业保险的费用、投保要求或定价标准。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 2614.729900000384,
+      "prompt_tokens": 1894,
+      "completion_tokens": 68,
+      "total_tokens": 1962,
+      "error": null
+    }
+  ],
+  "metadata": {
+    "dataset_path": "C:\\Users\\zlw\\Documents\\ChatGPT\\RAG知识库\\ev-manual-rag\\data\\eval\\generation_test_questions.jsonl",
+    "dataset_sha256": "6411f169a6a36b048a4baa9a6fb9ff4df05dee21da6569eeafed9789467be65b",
+    "reused_responses": false
+  }
+}

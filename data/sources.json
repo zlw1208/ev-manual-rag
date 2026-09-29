@@ -1,0 +1,40 @@
+{
+  "updated_at": "2026-09-27",
+  "usage_notice": "仅用于个人学习、研究与本地演示，不在仓库中重新分发原始手册或完整解析文本。",
+  "catalog_url": "https://aito.auto/service/",
+  "sources": [
+    {
+      "id": "aito-m5-ev",
+      "brand": "AITO",
+      "model": "M5",
+      "power_type": "纯电",
+      "document_type": "使用说明书",
+      "source_url": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/m5ev-product-manual-20240731.pdf",
+      "local_filename": "aito-m5-ev.pdf",
+      "sha256": "327a051c0d49533a027a4948d07875bdad007eac2aca3766a39d80303e7933de",
+      "status": "verified"
+    },
+    {
+      "id": "aito-m8-ev-2026",
+      "brand": "AITO",
+      "model": "M8",
+      "year": 2026,
+      "power_type": "纯电",
+      "document_type": "使用说明书",
+      "source_url": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/m8-ev-product-manual-20260206.pdf",
+      "local_filename": "aito-m8-ev-2026.pdf",
+      "status": "planned"
+    },
+    {
+      "id": "aito-m9-ev-2026",
+      "brand": "AITO",
+      "model": "M9",
+      "year": 2026,
+      "power_type": "纯电",
+      "document_type": "使用说明书",
+      "source_url": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/m9ev-product-manual-20260206.pdf",
+      "local_filename": "aito-m9-ev-2026.pdf",
+      "status": "planned"
+    }
+  ]
+}

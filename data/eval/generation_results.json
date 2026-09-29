@@ -1,0 +1,891 @@
+{
+  "metrics": {
+    "question_count": 35,
+    "answerable_count": 30,
+    "unanswerable_count": 5,
+    "pass_rate": 1.0,
+    "answer_point_recall": 1.0,
+    "fully_correct_answer_rate": 1.0,
+    "citation_hit_rate": 1.0,
+    "citation_precision": 0.9722222222222222,
+    "refusal_accuracy": 1.0,
+    "average_latency_ms": 3054.3911314311636,
+    "p95_latency_ms": 5428.90240001725,
+    "total_prompt_tokens": 63994,
+    "total_completion_tokens": 3009,
+    "total_tokens": 67003
+  },
+  "details": [
+    {
+      "id": "key-001",
+      "question": "仪表提示遥控钥匙电量低时应该怎么办？",
+      "category": "车辆控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "当仪表提示遥控钥匙电量低时，应尽快更换遥控钥匙电池。具体步骤为：1. 使用一字螺丝刀撬开遥控钥匙后盖（螺丝刀头部需罩上抹布，避免损坏后壳）；2. 取出遥控钥匙电路板；3. 更换电池（电池型号及安装方式请参考手册第16页）。此外，若因电量低无法正常启动车辆，可将遥控钥匙放在中控屏下方的杯托内、按键一面朝上，以应急启动车辆。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 2,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p015-016-137e9d354501",
+        "aito-m5-ev-p056-057-b54f1d02f719",
+        "aito-m5-ev-p013-014-b77e8fdc8c63"
+      ],
+      "cited_pages": [
+        15,
+        56,
+        13
+      ],
+      "passed": true,
+      "latency_ms": 5428.90240001725,
+      "prompt_tokens": 1831,
+      "completion_tokens": 151,
+      "total_tokens": 1982,
+      "error": null
+    },
+    {
+      "id": "door-001",
+      "question": "怎么开启后排儿童安全锁，开启后车门能从里面打开吗？",
+      "category": "车辆控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "在中控屏上点击‘车门儿童锁’开关，图标点亮后即开启后排儿童安全锁；开启后，后排车门无法从车内通过内把手打开，只能从车外打开。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 0.5,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p019-020-034f04a0340a",
+        "aito-m5-ev-p018-019-bcbeb8827002"
+      ],
+      "cited_pages": [
+        19,
+        18
+      ],
+      "passed": true,
+      "latency_ms": 2900.161500001559,
+      "prompt_tokens": 1758,
+      "completion_tokens": 79,
+      "total_tokens": 1837,
+      "error": null
+    },
+    {
+      "id": "window-001",
+      "question": "车窗如何一键自动升降，中途怎么让它停止？",
+      "category": "车辆控制",
+      "answerable": true,
+      "refused": false,
+      "answer": "车窗一键自动升降操作方法：拉起或按下任意车窗控制开关至其极限位置（第2个档位），车窗将自动上升或下降至极限位置。中途停止方法：在自动升降过程中，重新拉起或按下相应控制按键，车窗即停止升降。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p022-024-df6ff9b20f1e"
+      ],
+      "cited_pages": [
+        22
+      ],
+      "passed": true,
+      "latency_ms": 3241.4102999900933,
+      "prompt_tokens": 1996,
+      "completion_tokens": 94,
+      "total_tokens": 2090,
+      "error": null
+    },
+    {
+      "id": "seat-001",
+      "question": "驾驶座和方向盘之间至少应该保持多远？",
+      "category": "乘员安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "驾驶座和方向盘之间至少应保持25cm的距离。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 1,
+      "total_answer_points": 1,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p031-032-4a86be72c800"
+      ],
+      "cited_pages": [
+        31
+      ],
+      "passed": true,
+      "latency_ms": 1932.208400015952,
+      "prompt_tokens": 2067,
+      "completion_tokens": 39,
+      "total_tokens": 2106,
+      "error": null
+    },
+    {
+      "id": "child-001",
+      "question": "身高低于140厘米的儿童可以坐副驾驶吗？",
+      "category": "乘员安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "不可以。根据说明书，身高低于140cm的乘客不得坐在副驾驶座椅上，因为车辆发生碰撞时安全气囊展开可能导致严重伤害甚至死亡。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p039-040-0bdddfb26027"
+      ],
+      "cited_pages": [
+        39
+      ],
+      "passed": true,
+      "latency_ms": 2501.465500012273,
+      "prompt_tokens": 1952,
+      "completion_tokens": 61,
+      "total_tokens": 2013,
+      "error": null
+    },
+    {
+      "id": "airbag-001",
+      "question": "安全气囊展开以后还能继续驾驶车辆吗？",
+      "category": "乘员安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "安全气囊展开后不能继续驾驶车辆。根据手册警告，安全气囊展开后必须立即联系AITO用户中心，更换车辆安全系统部件，且不得驾驶车辆。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p047-048-8aa50a81d15a"
+      ],
+      "cited_pages": [
+        47
+      ],
+      "passed": true,
+      "latency_ms": 2737.1638999902643,
+      "prompt_tokens": 1923,
+      "completion_tokens": 69,
+      "total_tokens": 1992,
+      "error": null
+    },
+    {
+      "id": "drive-001",
+      "question": "涉水驾驶之后需要检查哪些项目？",
+      "category": "驾驶操作",
+      "answerable": true,
+      "refused": false,
+      "answer": "涉水驾驶之后，应在车辆安全时立即执行下列检查：\n1. 轻踩制动踏板，检查制动器是否正常工作。\n2. 检查喇叭是否工作。\n3. 转动方向盘以检查转向助力是否正常。\n4. 检查外部车灯是否工作。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p053-053-3a35007b33de"
+      ],
+      "cited_pages": [
+        53
+      ],
+      "passed": true,
+      "latency_ms": 3341.059700003825,
+      "prompt_tokens": 1651,
+      "completion_tokens": 103,
+      "total_tokens": 1754,
+      "error": null
+    },
+    {
+      "id": "start-001",
+      "question": "车辆怎样正常启动，READY指示灯什么时候点亮？",
+      "category": "驾驶操作",
+      "answerable": true,
+      "refused": false,
+      "answer": "车辆正常启动步骤如下：1. 解锁车辆并打开任意侧车门，车辆上电，仪表和中控屏点亮；2. 将钥匙置于车内指定位置；3. 踩住制动踏板，按下换挡操纵杆侧面按键，将换挡操纵杆推至D挡（前进挡）或R挡（倒挡）到底；此时READY指示灯点亮，表示车辆已准备就绪，可以行驶。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p056-056-e2fa00e2b324",
+        "aito-m5-ev-p064-065-de86d9e2c210"
+      ],
+      "cited_pages": [
+        56,
+        64
+      ],
+      "passed": true,
+      "latency_ms": 3979.713400010951,
+      "prompt_tokens": 1959,
+      "completion_tokens": 130,
+      "total_tokens": 2089,
+      "error": null
+    },
+    {
+      "id": "gear-001",
+      "question": "车辆无法移出P挡应该如何操作？",
+      "category": "驾驶操作",
+      "answerable": true,
+      "refused": false,
+      "answer": "车辆无法移出P挡时，请按以下步骤操作：\n1. 完全松开制动踏板和换挡操作杆按键。\n2. 踩住制动踏板并按下换挡操作杆按键。\n3. 将换挡操纵杆向前或向后推动到底。\n如仍无法移出P挡，请咨询AITO用户中心。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p060-061-deaa3d11610e"
+      ],
+      "cited_pages": [
+        60
+      ],
+      "passed": true,
+      "latency_ms": 3586.7369000043254,
+      "prompt_tokens": 1567,
+      "completion_tokens": 112,
+      "total_tokens": 1679,
+      "error": null
+    },
+    {
+      "id": "light-001",
+      "question": "大灯延时关闭可以设置多长时间？",
+      "category": "驾驶操作",
+      "answerable": true,
+      "refused": false,
+      "answer": "大灯延时关闭可设置的时间为关闭、15秒、30秒或60秒。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p066-068-52cbbc5e57cc"
+      ],
+      "cited_pages": [
+        66
+      ],
+      "passed": true,
+      "latency_ms": 2127.3490999883506,
+      "prompt_tokens": 2111,
+      "completion_tokens": 49,
+      "total_tokens": 2160,
+      "error": null
+    },
+    {
+      "id": "wiper-001",
+      "question": "自动雨刮的灵敏度怎么调节？",
+      "category": "驾驶操作",
+      "answerable": true,
+      "refused": false,
+      "answer": "雨刮的灵敏度可通过雨刮洗涤控制拨杆中部的雨刮灵敏度开关进行调节，由下向上调节时灵敏度依次变高。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 2,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p071-072-e62eeac50f58"
+      ],
+      "cited_pages": [
+        71
+      ],
+      "passed": true,
+      "latency_ms": 2426.831699995091,
+      "prompt_tokens": 1827,
+      "completion_tokens": 59,
+      "total_tokens": 1886,
+      "error": null
+    },
+    {
+      "id": "mirror-001",
+      "question": "行驶过程中可以调节外后视镜吗？",
+      "category": "驾驶操作",
+      "answerable": true,
+      "refused": false,
+      "answer": "不可以。为了避免危险驾驶和事故发生，只有在车辆静止状态才能调节外后视镜。开车前应检查并调整好后视镜位置，行车中不得调整，以集中精力驾驶。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 2,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p073-074-c08187535592"
+      ],
+      "cited_pages": [
+        73
+      ],
+      "passed": true,
+      "latency_ms": 2547.144100011792,
+      "prompt_tokens": 1549,
+      "completion_tokens": 69,
+      "total_tokens": 1618,
+      "error": null
+    },
+    {
+      "id": "power-001",
+      "question": "后备箱12V电源插座的最大功率是多少？",
+      "category": "车载设备",
+      "answerable": true,
+      "refused": false,
+      "answer": "后备箱12V电源插座的最大功率约120W。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 1,
+      "total_answer_points": 1,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p080-081-7c7c6768844e"
+      ],
+      "cited_pages": [
+        80
+      ],
+      "passed": true,
+      "latency_ms": 2005.046600010246,
+      "prompt_tokens": 1465,
+      "completion_tokens": 41,
+      "total_tokens": 1506,
+      "error": null
+    },
+    {
+      "id": "brake-001",
+      "question": "紧急制动时制动踏板应该怎么踩？",
+      "category": "驾驶安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "紧急制动时，请完全踩下制动踏板并保持至车辆刹停。不要反复踩下或减少踏板压力，否则会中断防抱死制动系统（ABS）工作，增加制动距离。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p084-084-8f29c1919195",
+        "aito-m5-ev-p087-088-451bd8962ceb"
+      ],
+      "cited_pages": [
+        84,
+        87
+      ],
+      "passed": true,
+      "latency_ms": 2920.984700002009,
+      "prompt_tokens": 1979,
+      "completion_tokens": 79,
+      "total_tokens": 2058,
+      "error": null
+    },
+    {
+      "id": "esc-001",
+      "question": "车辆转向过度或不足时ESC如何帮助稳定车辆？",
+      "category": "驾驶安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "当车辆转向过度或转向不足时，ESC系统会通过对车轮施加制动或降低电机扭矩的方式，提高驾驶稳定性和安全性。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p087-087-eeacfd4f13f6"
+      ],
+      "cited_pages": [
+        87
+      ],
+      "passed": true,
+      "latency_ms": 2469.380700000329,
+      "prompt_tokens": 1866,
+      "completion_tokens": 61,
+      "total_tokens": 1927,
+      "error": null
+    },
+    {
+      "id": "acc-001",
+      "question": "自适应巡航检测到前方有车时会怎么控制车速？",
+      "category": "智能驾驶",
+      "answerable": true,
+      "refused": false,
+      "answer": "自适应巡航检测到前方有车时，会根据设定的跟车时距自动降低车速，与前车保持安全距离；若前车完全停止，本车也会跟随停止。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p091-091-9c5c206f7646"
+      ],
+      "cited_pages": [
+        91
+      ],
+      "passed": true,
+      "latency_ms": 2778.5508000233676,
+      "prompt_tokens": 2053,
+      "completion_tokens": 73,
+      "total_tokens": 2126,
+      "error": null
+    },
+    {
+      "id": "tja-001",
+      "question": "车道巡航辅助在什么车速范围内能保持车道居中？",
+      "category": "智能驾驶",
+      "answerable": true,
+      "refused": false,
+      "answer": "车道巡航辅助在车速30~130km/h的速度区间内可保持车道居中。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 2,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p094-094-ea299a8b5b64"
+      ],
+      "cited_pages": [
+        94
+      ],
+      "passed": true,
+      "latency_ms": 2126.3122000091244,
+      "prompt_tokens": 2105,
+      "completion_tokens": 49,
+      "total_tokens": 2154,
+      "error": null
+    },
+    {
+      "id": "bsd-001",
+      "question": "盲区监测发现旁边有车时会怎样提醒驾驶员？",
+      "category": "智能驾驶",
+      "answerable": true,
+      "refused": false,
+      "answer": "当盲区监测系统（BSD）检测到车辆两侧驾驶员视角盲区中有车辆存在时，后视镜上的指示灯会被点亮；如果此时驾驶员打转向灯准备变道，则仪表显示屏上出现报警提示画面，相应侧车外后视镜上的报警灯长亮，并发出声音报警。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p098-098-5e97c134cb04"
+      ],
+      "cited_pages": [
+        98
+      ],
+      "passed": true,
+      "latency_ms": 3224.315799976466,
+      "prompt_tokens": 1732,
+      "completion_tokens": 96,
+      "total_tokens": 1828,
+      "error": null
+    },
+    {
+      "id": "dow-001",
+      "question": "停车开门时怎样预警后方接近的自行车或行人？",
+      "category": "智能驾驶",
+      "answerable": true,
+      "refused": false,
+      "answer": "停车开门时，可通过开门预警（DOW）系统预警后方接近的自行车或行人：当车速≤5km/h且四门关闭时，若后方有自行车或行人进入报警区域，外后视镜报警灯和红色氛围灯点亮；若此时打开对应侧车门，则对应侧外后视镜报警灯点亮、红色氛围灯闪烁，并伴随蜂鸣器声音报警。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p098-100-5a2a0b0e9be9"
+      ],
+      "cited_pages": [
+        98
+      ],
+      "passed": true,
+      "latency_ms": 3662.101599999005,
+      "prompt_tokens": 1732,
+      "completion_tokens": 118,
+      "total_tokens": 1850,
+      "error": null
+    },
+    {
+      "id": "aeb-001",
+      "question": "前方存在碰撞风险时辅助紧急制动系统有什么作用？",
+      "category": "智能驾驶",
+      "answerable": true,
+      "refused": false,
+      "answer": "前方存在碰撞风险时，辅助紧急制动系统会发出声音和视觉报警，为驾驶员提供反应时间；若情况持续恶化，系统将施加短促制动，并根据紧急程度辅助紧急制动，以帮助避免碰撞或减轻碰撞伤害。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p101-101-26879977020c"
+      ],
+      "cited_pages": [
+        101
+      ],
+      "passed": true,
+      "latency_ms": 2953.9861000084784,
+      "prompt_tokens": 2033,
+      "completion_tokens": 83,
+      "total_tokens": 2116,
+      "error": null
+    },
+    {
+      "id": "apa-001",
+      "question": "车速超过25公里每小时时还能开启辅助泊车吗？",
+      "category": "智能驾驶",
+      "answerable": true,
+      "refused": false,
+      "answer": "不能。车速超过25公里每小时时无法开启辅助泊车功能。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 2,
+      "total_answer_points": 2,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p108-108-c197a9e17262",
+        "aito-m5-ev-p108-109-620809337f07"
+      ],
+      "cited_pages": [
+        108,
+        108
+      ],
+      "passed": true,
+      "latency_ms": 2293.3473000011873,
+      "prompt_tokens": 1991,
+      "completion_tokens": 48,
+      "total_tokens": 2039,
+      "error": null
+    },
+    {
+      "id": "camera-001",
+      "question": "全景影像有没有盲点，能否代替驾驶员观察？",
+      "category": "智能驾驶",
+      "answerable": true,
+      "refused": false,
+      "answer": "全景影像存在盲点，不能代替驾驶员观察。摄像头在俯视图四个角区域存在盲区，高于地面的立体物体可能显示不全或完全消失；图像还存在视觉变形、轨迹线偏差等问题。该系统仅作为低速泊车辅助，不能替代驾驶员的注意力和判断力，驾驶员需始终观察周围环境并随时准备接管车辆。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 0.6666666666666666,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p112-112-e944d99e1aac",
+        "aito-m5-ev-p113-113-978268432a14",
+        "aito-m5-ev-p108-109-620809337f07"
+      ],
+      "cited_pages": [
+        112,
+        113,
+        108
+      ],
+      "passed": true,
+      "latency_ms": 3836.3973000086844,
+      "prompt_tokens": 1566,
+      "completion_tokens": 117,
+      "total_tokens": 1683,
+      "error": null
+    },
+    {
+      "id": "tpms-001",
+      "question": "胎压低于多少或高于多少会触发胎压报警？",
+      "category": "驾驶安全",
+      "answerable": true,
+      "refused": false,
+      "answer": "胎压低于等于2.2bar或高于等于3.5bar时会触发胎压报警。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p118-118-1ab3a59bc76c"
+      ],
+      "cited_pages": [
+        118
+      ],
+      "passed": true,
+      "latency_ms": 2098.0732000025455,
+      "prompt_tokens": 1797,
+      "completion_tokens": 43,
+      "total_tokens": 1840,
+      "error": null
+    },
+    {
+      "id": "remote-001",
+      "question": "AITO App可以远程控制车辆的哪些功能？",
+      "category": "车载设备",
+      "answerable": true,
+      "refused": false,
+      "answer": "AITO App可以远程控制以下功能：查看车辆状态、远程解闭锁、远程升/降车窗、远程控制后备箱、远程寻车、远程座椅加热（可单独调节每个座椅加热温度）、远程控制空调（包括开启/关闭、温度调节、空调预约时间及预约模式）。\n\n注意：远程座椅加热和远程空调功能在动力电池电量低于15%时将被App提示禁用；远程控制需确保车辆已绑定并完成实名认证，且车辆处于联网就绪状态。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 5,
+      "total_answer_points": 5,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p125-126-a94b19c29ee2"
+      ],
+      "cited_pages": [
+        125
+      ],
+      "passed": true,
+      "latency_ms": 4228.6130000138655,
+      "prompt_tokens": 1709,
+      "completion_tokens": 139,
+      "total_tokens": 1848,
+      "error": null
+    },
+    {
+      "id": "charge-001",
+      "question": "车辆支持哪三种充电方式，快充使用哪种充电桩？",
+      "category": "充电补能",
+      "answerable": true,
+      "refused": false,
+      "answer": "车辆支持三种充电方式：1. 使用车载充电设备充电（慢充）；2. 使用交流充电桩充电（慢充）；3. 使用直流充电桩充电（快充）。快充使用直流充电桩。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p156-157-d82de676459e"
+      ],
+      "cited_pages": [
+        156
+      ],
+      "passed": true,
+      "latency_ms": 3398.7944000109565,
+      "prompt_tokens": 2012,
+      "completion_tokens": 76,
+      "total_tokens": 2088,
+      "error": null
+    },
+    {
+      "id": "charge-002",
+      "question": "下雨天没有遮雨棚可以给车辆充电吗？",
+      "category": "充电补能",
+      "answerable": true,
+      "refused": false,
+      "answer": "下雨天没有遮雨棚时，请勿进行充电操作。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p156-156-dacfebee6223"
+      ],
+      "cited_pages": [
+        156
+      ],
+      "passed": true,
+      "latency_ms": 1987.4826000013854,
+      "prompt_tokens": 1994,
+      "completion_tokens": 39,
+      "total_tokens": 2033,
+      "error": null
+    },
+    {
+      "id": "charge-003",
+      "question": "停电导致充电故障，恢复供电后会自动继续充电吗？",
+      "category": "充电补能",
+      "answerable": true,
+      "refused": false,
+      "answer": "会自动继续充电。当电力恢复时，车辆将自动恢复充电。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 1,
+      "total_answer_points": 1,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p157-158-0cdf929cf88c"
+      ],
+      "cited_pages": [
+        157
+      ],
+      "passed": true,
+      "latency_ms": 2061.5642000047956,
+      "prompt_tokens": 1794,
+      "completion_tokens": 42,
+      "total_tokens": 1836,
+      "error": null
+    },
+    {
+      "id": "trunk-001",
+      "question": "紧急情况下怎样从车内机械打开后备箱？",
+      "category": "应急处理",
+      "answerable": true,
+      "refused": false,
+      "answer": "在紧急情况下，可按以下步骤从车内机械打开后备箱：\n1. 折叠后排座椅靠背，进入后备箱。\n2. 按压保护盖卡扣，拆下装饰盖板。\n3. 向右拨动后备箱应急拨钮。\n4. 向外推动，打开后备箱。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 4,
+      "total_answer_points": 4,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p168-168-70254075398c"
+      ],
+      "cited_pages": [
+        168
+      ],
+      "passed": true,
+      "latency_ms": 3226.3167000201065,
+      "prompt_tokens": 1291,
+      "completion_tokens": 101,
+      "total_tokens": 1392,
+      "error": null
+    },
+    {
+      "id": "tire-001",
+      "question": "轮胎刺孔超过6毫米还能用补胎液修补吗？",
+      "category": "应急处理",
+      "answerable": true,
+      "refused": false,
+      "answer": "不能。轮胎刺孔超过6毫米时，补胎液无法修补，应呼叫道路救援。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 3,
+      "total_answer_points": 3,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p171-171-6e461a332a8d"
+      ],
+      "cited_pages": [
+        171
+      ],
+      "passed": true,
+      "latency_ms": 2309.410099987872,
+      "prompt_tokens": 2192,
+      "completion_tokens": 52,
+      "total_tokens": 2244,
+      "error": null
+    },
+    {
+      "id": "jump-001",
+      "question": "低压蓄电池没电导致车辆无法启动时怎么搭电？",
+      "category": "应急处理",
+      "answerable": true,
+      "refused": false,
+      "answer": "如果低压蓄电池没电导致车辆无法启动，可通过跨接启动方式启动车辆，具体步骤如下：\n1. 打开后备箱，拆下后备箱地板；\n2. 拆下低压蓄电池盖板；\n3. 打开低压蓄电池正极端子保护盖；\n4. 将红色跨接电缆一端连接救援车辆低压蓄电池正极（①），另一端连接被救援车辆低压蓄电池正极（②）；\n5. 将黑色跨接电缆一端连接救援车辆低压蓄电池负极（③），另一端连接被救援车辆低压蓄电池负极（④）；\n6. 先启动救援车辆，再踩下制动踏板启动本车；\n7. 启动后，先拆除被救援车负极（④）和救援车负极（③）的黑色跨接电缆；\n8. 再拆除被救援车正极（②）和救援车正极（①）的红色跨接电缆。\n注意：严禁使用电压大于12V的电源；操作中避免短路；连接顺序为先正后负，拆除顺序为先负后正。",
+      "answer_point_recall": 1.0,
+      "matched_answer_points": 5,
+      "total_answer_points": 5,
+      "citation_hit": true,
+      "citation_precision": 1.0,
+      "cited_chunk_ids": [
+        "aito-m5-ev-p175-175-584df3e6ed39"
+      ],
+      "cited_pages": [
+        175
+      ],
+      "passed": true,
+      "latency_ms": 7493.02899997565,
+      "prompt_tokens": 1593,
+      "completion_tokens": 294,
+      "total_tokens": 1887,
+      "error": null
+    },
+    {
+      "id": "refuse-001",
+      "question": "问界M5纯电版明年会降价多少？",
+      "category": "拒答",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。所提供的用户手册资料仅包含车辆参数、性能、使用说明及服务联系方式等内容，未涉及任何关于未来价格变动、市场策略或官方降价计划的信息。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 2806.302599987248,
+      "prompt_tokens": 1757,
+      "completion_tokens": 78,
+      "total_tokens": 1835,
+      "error": null
+    },
+    {
+      "id": "refuse-002",
+      "question": "明天北京天气怎么样，适合开车吗？",
+      "category": "拒答",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。说明书资料中未包含天气预报信息，也未提供天气与行车适宜性之间的具体判定标准。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 3236.859500000719,
+      "prompt_tokens": 1831,
+      "completion_tokens": 95,
+      "total_tokens": 1926,
+      "error": null
+    },
+    {
+      "id": "refuse-003",
+      "question": "AITO公司的股票下周会上涨吗？",
+      "category": "拒答",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。所提供的说明书资料仅涉及问界M5纯电版车辆的使用、维护、安全及法律声明等内容，不包含股票市场分析、财经预测或公司上市相关信息。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 2845.29699999257,
+      "prompt_tokens": 1532,
+      "completion_tokens": 87,
+      "total_tokens": 1619,
+      "error": null
+    },
+    {
+      "id": "refuse-004",
+      "question": "请告诉我特斯拉Model Y更换机油的周期。",
+      "category": "拒答",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。所提供的说明书资料均为问界M5纯电版内容，与特斯拉Model Y无关；且纯电动车无发动机及机油系统，问题前提不成立。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 3788.3559000038076,
+      "prompt_tokens": 1866,
+      "completion_tokens": 122,
+      "total_tokens": 1988,
+      "error": null
+    },
+    {
+      "id": "refuse-005",
+      "question": "这辆车下一代车型会使用什么芯片？",
+      "category": "拒答",
+      "answerable": false,
+      "refused": true,
+      "answer": "根据当前检索到的说明书资料，无法回答这个问题。提供的说明书资料仅涵盖车门操作、安全带使用及免责声明等内容，未涉及车辆芯片或下一代车型的技术规格。",
+      "answer_point_recall": null,
+      "matched_answer_points": 0,
+      "total_answer_points": 0,
+      "citation_hit": null,
+      "citation_precision": null,
+      "cited_chunk_ids": [],
+      "cited_pages": [],
+      "passed": true,
+      "latency_ms": 2403.0214000085834,
+      "prompt_tokens": 1913,
+      "completion_tokens": 61,
+      "total_tokens": 1974,
+      "error": null
+    }
+  ]
+}

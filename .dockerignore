@@ -1,0 +1,13 @@
+.git/
+.idea/
+.venv/
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.env
+qdrant_storage/
+logs/
+data/raw/
+data/processed/*.pages.jsonl
+data/eval/
